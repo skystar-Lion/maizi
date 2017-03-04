@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="always">
+    <title>
+豆瓣音乐
+</title>
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="description" content="记录你想听的、在听和听过的唱片，顺便打分、添加标签及个人附注、写评论。根据你的口味，豆瓣会推荐适合的唱片给你。" />
+    <meta property="og:title" content="豆瓣音乐" />
+    <meta property="og:description" content="发现更多豆瓣音乐独家歌曲、有趣有深度的专题报道，结识更多更新更有特点的音乐人——和我们一起探索广阔的音乐世界吧！" />
+
+    <script >var _head_start = new Date();</script>
+    <script src="https://img3.doubanio.com/f/music/b66ed708717bf0b4a005a4d0113af8843ef3b8ff/js/music/lib/jquery-1.11.0.min.js"></script>
+    <script src="https://img3.doubanio.com/f/music/dcd7ea79bfc24a0b5d9a280a8ca59acceddd56be/js/music/lib/jquery-migrate-1.2.1.js"></script>
+    <script src="https://img3.doubanio.com/f/shire/f067a26090389e2f0433e64d90f3121eac481d1a/js/douban.js"></script>
+    <script src="https://img3.doubanio.com/f/shire/77323ae72a612bba8b65f845491513ff3329b1bb/js/do.js" data-cfg-autoload="false"></script>
+    <link href="https://img3.doubanio.com/f/shire/82d7c82f084d5157d7b87a17c76af984dd23dbbf/css/douban.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+    
+    </style>
+    
+  <!--[if lte IE 8]>
+  <script src="https://img3.doubanio.com/f/music/a1eae1516449e9c49f0f585c1819f3b7618bf373/js/music/lib/es5-shim.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="https://img3.doubanio.com/f/music/d5b20cfb47eab85eb3b72a58c925835f1c7c26e4/css/music/home/home.css"/>
+  
+
+
+
+
+  <script type="text/javascript" src="https://img3.doubanio.com/f/music/8b12769a9a600e76462734186f1109468531b123/deploy/music/music-home/lib.js"></script>
+  
+  <script type='text/javascript'>
+  var _vwo_code = (function() {
+    var account_id = 249272,
+      settings_tolerance = 0,
+      library_tolerance = 2500,
+      use_existing_jquery = false,
+      // DO NOT EDIT BELOW THIS LINE
+      f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());
+
+  +function () {
+    var bindEvent = function (el, type, handler) {
+        var $ = window.jQuery || window.Zepto || window.$
+       if ($ && $.fn && $.fn.on) {
+           $(el).on(type, handler)
+       } else if($ && $.fn && $.fn.bind) {
+           $(el).bind(type, handler)
+       } else if (el.addEventListener){
+         el.addEventListener(type, handler, false);
+       } else if (el.attachEvent){
+         el.attachEvent("on" + type, handler);
+       } else {
+         el["on" + type] = handler;
+       }
+     }
+
+    var _origin_load = _vwo_code.load
+    _vwo_code.load = function () {
+      var args = [].slice.call(arguments)
+      bindEvent(window, 'load', function () {
+        _origin_load.apply(_vwo_code, args)
+      })
+    }
+  }()
+
+  _vwo_settings_timer = _vwo_code.init();
+  </script>
+
+
+    <link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/7f0cc0e174228043.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+       
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+
+
+
+
+
+<div class="top-nav-info">
+      
+      <a href="https://www.douban.com/accounts/login?source=music" class="nav-login" rel="nofollow">登录</a>
+      <a href="https://www.douban.com/accounts/register?source=music" class="nav-register" rel="nofollow">注册</a>
+</div>
+
+
+    <div class="top-nav-doubanapp">
+        
+        <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+        <div id="top-nav-appintro" class="more-items">
+            <p class="appintro-title">豆瓣</p>
+            <p class="slogan">我们的精神角落</p>
+            <p class="qrcode">
+                扫码直接下载
+            </p>
+            <div class="download">
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">iPhone</a>
+                <span>·</span>
+                <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Android</a>
+            </div>
+        </div>
+        <div id="doubanapp-tip">
+            <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 4.0 全新发布</a>
+            <a href="javascript: void 0;" class="tip-close">×</a>
+        </div>
+    </div>
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              豆瓣
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://book.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              读书
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://movie.douban.com/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              电影
+            </a>
+            </li>
+          
+            
+            <li class="on">
+            <a href="https://music.douban.com/" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              音乐
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/location/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              同城
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://www.douban.com/group/" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              小组
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              阅读
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://douban.fm/?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              FM
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              东西
+            </a>
+            </li>
+          
+            
+            <li class="">
+            <a href="https://market.douban.com/?utm_campaign=douban_top_nav&amp;utm_source=douban&amp;utm_medium=pc_web" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-market&#34;,&#34;uid&#34;:&#34;0&#34;}">
+              市集
+            </a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="https://moment.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-moment&#34;,&#34;uid&#34;:&#34;0&#34;}">一刻</a></td></tr>
+                    
+                    <tr><td><a href="https://ypy.douban.com" target="_blank" data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-ypy&#34;,&#34;uid&#34;:&#34;0&#34;}">豆瓣摄影</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+       
+
+
+
+
+
+
+
+
+<div id="db-nav-music" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https://music.douban.com">豆瓣音乐</a>
+    </div>
+    <div class="nav-search">
+      <form action="https://music.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">唱片名、表演者、条码、ISRC</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1003" />
+        </fieldset>
+      </form>
+      <a href="https://music.douban.com/annual2016/?source=navigation" target="_blank" class="ban-annual2016">
+          <img src="https://img3.doubanio.com/f/music/0b4dbb27aebf2dcc74e25009e1452d0ae5535c38/pics/music/annual2016.png" alt="豆瓣2016年度音乐榜单">
+      </a>
+      <style>
+          .ban-annual2016,
+          .ban-annual2016:hover,
+          .ban-annual2016:link,
+          .ban-annual2016:visited {
+              position: absolute;
+              top: 0;
+              right: 50px;
+              background: transparent !important;
+          }
+          .ban-annual2016 img {
+              height: 90px;
+              margin-top: 2px;
+          }
+          .nav-search,
+          .nav .nav-primary {
+              overflow: visible !important;
+          }
+      </style>
+      <style>
+          .nav-search,
+          .nav .nav-primary {
+              overflow: visible !important;
+          }
+          .nav-search {
+              margin-left: 145px;
+          }
+      </style>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+                          
+                 <li><a href="https://music.douban.com/artists/">音乐人</a></li>
+             
+                 <li><a href="https://music.douban.com/artists/royalty/">金羊毛计划</a></li>
+             
+                 <li><a href="https://music.douban.com/topics/">专题</a></li>
+             
+                 <li><a href="https://music.douban.com/chart">排行榜</a></li>
+             
+                 <li><a href="https://music.douban.com/tag/">分类浏览</a></li>
+             
+                 <li><a href="https://music.douban.com/review/latest/">乐评</a></li>
+             
+                 <li><a href="https://douban.fm/?from_=music_nav">豆瓣FM</a></li>
+             
+                 <li><a href="https://douban.fm/explore/songlists/">歌单</a></li>
+             
+                 <li><a href="https://artist.douban.com/abilu/2016">阿比鹿音乐奖</a></li>
+      
+      </ul>
+  </div>
+
+  </div>
+</div>
+
+    <script id="suggResult" type="text/template">
+        <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'music_search_sugg'})">
+                <img src="{{= pic}}" width="40" />
+                <div>
+                    <em>{{= title}}</em>
+                    {{if type == "m"}}
+                        <span>(艺术家)</span>
+                    {{else type == "a"}}
+                        <span>(音乐人)</span>
+                    {{else type == "d"}}
+                        <span>(DJ)</span>
+                    {{else type == "l"}}
+                        <span>(厂牌)</span>
+                    {{/if}}
+                    {{if other_title}}
+                        <span>其他名称：{{= other_title}}</span>
+                    {{/if}}
+                    {{if performer}}
+                        <p>表演者：{{= performer}}</p>
+                    {{/if}}
+                    {{if cn_name}}
+                        <p>{{= cn_name}}</p>
+                    {{/if}}
+                    {{if en_name}}
+                        <p>{{= en_name}}</p>
+                    {{/if}}
+                </div>
+            </a>
+        </li>
+    </script>
+  
+  
+
+
+
+
+
+    <div id="wrapper">
+        
+
+        
+<div id="content">
+    
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+               
+  <div class="slick top-banner">
+      
+      <div>
+          <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fartist.douban.com%2Fabilu%2F2016%2F&amp;bid=2430&amp;type=music-banner&amp;pos=1" target="_blank">
+            <img src="https://img3.doubanio.com/view/music_index_banner/raw/public/banner-2430.jpg" alt="yeah">
+          </a>
+      </div>
+      
+      <div>
+          <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fsite.douban.com%2Funexpecteddoore%2F%3Fs%3D693929&amp;bid=2431&amp;type=music-banner&amp;pos=2" target="_blank">
+            <img src="https://img3.doubanio.com/view/music_index_banner/raw/public/banner-2431.jpg" alt="yeah">
+          </a>
+      </div>
+      
+      <div>
+          <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fartist.douban.com%2Fabilu%2F2016%2Funrank&amp;bid=2427&amp;type=music-banner&amp;pos=3" target="_blank">
+            <img src="https://img1.doubanio.com/view/music_index_banner/raw/public/banner-2427.jpg" alt="yeah">
+          </a>
+      </div>
+      
+      <div>
+          <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fmusic.douban.com%2Ftopic%2FThefin%2F&amp;bid=2424&amp;type=music-banner&amp;pos=4" target="_blank">
+            <img src="https://img3.doubanio.com/view/music_index_banner/raw/public/banner-2424.jpg" alt="yeah">
+          </a>
+      </div>
+      
+      <div>
+          <a href="https://www.douban.com/link2/?url=https%3A%2F%2Fmusic.douban.com%2Ftopic%2FTheTemperTrap&amp;bid=2429&amp;type=music-banner&amp;pos=5" target="_blank">
+            <img src="https://img1.doubanio.com/view/music_index_banner/raw/public/banner-2429.jpg" alt="yeah">
+          </a>
+      </div>
+  </div>
+
+  <div class="popular-artists section">
+      <ul class="header">
+        <li class="artists-tab">本周流行音乐人</li>
+        |
+        <li class="new-artists-tab">上升最快音乐人</li>
+      </ul>
+      <div class="artists">
+          
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="693607,113415,116321,115417,113416,116319"
+             href="/artists/player/?sid=693607,113415,116321,115417,113416,116319&amp;source=index"
+             target="_blank">
+            <img src="https://img3.doubanio.com/view/site/median/public/72174c83cc522ad.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>13号线</p>
+                  <p>关于夫妻像真理的大讨论</p>
+                  <p>01.天空之城</p>
+                  <p>那时不觉小</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/gonewiththebike/" target="_blank">鞠起和Mr.Kr</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="692349,390071,401466,401467,401470,390084"
+             href="/artists/player/?sid=692349,390071,401466,401467,401470,390084&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/fc00cb95a9b74d9.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>Ain&#39;t I Lost Control</p>
+                  <p>4.Itinerary  旅行计划</p>
+                  <p>2.有女朋友别忘了请我吃饭</p>
+                  <p>3.预谋邂逅</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/wpoxs/" target="_blank">放肆的肆</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="693954,227251,314936,187123,466608,193240"
+             href="/artists/player/?sid=693954,227251,314936,187123,466608,193240&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/1ce6f18caa62a8a.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>玫瑰 </p>
+                  <p>玫瑰 </p>
+                  <p>狗日的青春</p>
+                  <p>我在太原和谁一起假装悲伤</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/erbai/" target="_blank">贰佰</a>
+        <p class="genre">民谣 Folk</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="692793,690703,690704,692792"
+             href="/artists/player/?sid=692793,690703,690704,692792&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/3eb4d7c61f79daa.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>It is obvious (demo)</p>
+                  <p>TOW live @ FS</p>
+                  <p>TWICE LOST WOMAN(demo)</p>
+                  <p>If I&#39;m in love with you (demo)</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link " href="https://site.douban.com/TOW/" target="_blank">TOW</a>
+        <p class="genre">实验 Experimental</p>
+      </div>
+      <div class="clearfix"></div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="146958,615824,67440,136595,269352,692140"
+             href="/artists/player/?sid=146958,615824,67440,136595,269352,692140&amp;source=index"
+             target="_blank">
+            <img src="https://img3.doubanio.com/view/site/median/public/9d557e515d00160.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>arioso-你在哪里（demo）</p>
+                  <p>arioso-音乐日记0924</p>
+                  <p>arioso-Morning lover</p>
+                  <p>arioso-先生你哪位</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link " href="https://site.douban.com/arioso/" target="_blank">Arioso</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="693912,445598,423657,261812,484914,587765"
+             href="/artists/player/?sid=693912,445598,423657,261812,484914,587765&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/9e38c40a0876647.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>跳动的蚂蚱</p>
+                  <p>如果你要回来请你告诉我具体时间</p>
+                  <p>去你的旅行</p>
+                  <p>写给自己的歌</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/xiaopu/" target="_blank">小普</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="692701,413667,606116,606114,692700,405228"
+             href="/artists/player/?sid=692701,413667,606116,606114,692700,405228&amp;source=index"
+             target="_blank">
+            <img src="https://img3.doubanio.com/view/site/median/public/9e9e73e24742d13.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>The second dream</p>
+                  <p>Daydream Delusion</p>
+                  <p>04 Purple Fog</p>
+                  <p>01 Through The Door</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link " href="https://site.douban.com/cityflanker/" target="_blank">City Flanker</a>
+        <p class="genre">摇滚 Rock</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="170108,44448,252348,447555,308899,244984"
+             href="/artists/player/?sid=170108,44448,252348,447555,308899,244984&amp;source=index"
+             target="_blank">
+            <img src="https://img3.doubanio.com/view/site/median/public/4ff788daaa1b9d4.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>I&#39;ll be there </p>
+                  <p>The way u r_(Demo)</p>
+                  <p>Indeed. I am a fool</p>
+                  <p>Now it’s a brave time</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/kulu/" target="_blank">梁晓雪</a>
+        <p class="genre">民谣 Folk</p>
+      </div>
+      <div class="clearfix"></div>
+    <div class="clearfix"></div>
+
+      </div>
+      <div class="new-artists">
+          
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="184,182,303,186,476,353725"
+             href="/artists/player/?sid=184,182,303,186,476,353725&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/9fcd093a072e2d9.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>再见，楼梯旋转 (Goodbye, staircase whirling) (2007)</p>
+                  <p>百花园里的新椅子 (2006)</p>
+                  <p>鲸鱼姐姐 (demo) (2008)</p>
+                  <p>take (distortion mix) (2005)</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link " href="https://site.douban.com/selfparty/" target="_blank">self party</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="692612,13690,13711,89549,437717,89547"
+             href="/artists/player/?sid=692612,13690,13711,89549,437717,89547&amp;source=index"
+             target="_blank">
+            <img src="https://img5.doubanio.com/view/site/median/public/16747dd3644d696.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>大遊仙（早春首發版）</p>
+                  <p>《江湖邊》晨鍾</p>
+                  <p>《江湖邊》夢生</p>
+                  <p>《神遊》送別</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/secretby/" target="_blank">秘密後院</a>
+        <p class="genre">民谣 Folk</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="694140,334,4362,18267,34533,335"
+             href="/artists/player/?sid=694140,334,4362,18267,34533,335&amp;source=index"
+             target="_blank">
+            <img src="https://img3.doubanio.com/view/site/median/public/5ba2ff6a75d2311.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>invincible Summer(Dangerkids Cover)</p>
+                  <p>路</p>
+                  <p>Decembers( Hawthorne Heights Cover)</p>
+                  <p>最天使(曾哥Cover)</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/rontsewi/" target="_blank">小R</a>
+        <p class="genre">摇滚 Rock</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="691455,723,2111,2475,725,17489"
+             href="/artists/player/?sid=691455,723,2111,2475,725,17489&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/656b798564d23ac.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>出口</p>
+                  <p>未完成的时光</p>
+                  <p>我们</p>
+                  <p>小世界</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/coverpeople/" target="_blank">coverpeople</a>
+        <p class="genre">民谣 Folk</p>
+      </div>
+      <div class="clearfix"></div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="694102,387076,254177,329741,279690,364611"
+             href="/artists/player/?sid=694102,387076,254177,329741,279690,364611&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/d0682f9b3b93109.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>chillwave 01</p>
+                  <p>Taylor Swift - I Knew You Were Trouble (Metal/Djent Version)</p>
+                  <p>First Beat (Dubstep Test Song) [feat. Estertor]</p>
+                  <p>LoLi Shadow (Progressive Metal)</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/tilsdeath/" target="_blank">TilSDeath</a>
+        <p class="genre">摇滚 Rock</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="692688,32394,48945,67072,50574,19989"
+             href="/artists/player/?sid=692688,32394,48945,67072,50574,19989&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/75378012ce456e7.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>D!O!D!O!D!-B05</p>
+                  <p>日落山风起</p>
+                  <p>断湖（4月5日金枝院子即兴</p>
+                  <p>鸦叉坂的山风（李家村／with VAVABOND)</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link " href="https://site.douban.com/lijianhong/" target="_blank">李剑鸿</a>
+        <p class="genre">摇滚 Rock</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="693912,445598,423657,261812,484914,587765"
+             href="/artists/player/?sid=693912,445598,423657,261812,484914,587765&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/9e38c40a0876647.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>跳动的蚂蚱</p>
+                  <p>如果你要回来请你告诉我具体时间</p>
+                  <p>去你的旅行</p>
+                  <p>写给自己的歌</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/xiaopu/" target="_blank">小普</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="artist-item">
+        
+        <div class="cover">
+          
+          <a class="artist-photo player-playable"
+             data-sids="3814,3815,9013,568956,677495,89786"
+             href="/artists/player/?sid=3814,3815,9013,568956,677495,89786&amp;source=index"
+             target="_blank">
+            <img src="https://img1.doubanio.com/view/site/median/public/496487d53d4d739.jpg">
+            <div class="player-round-btn-bg">
+              <div class="hoverlay">
+                  <p>雨后的咖啡 b版</p>
+                  <p>半调子 cover陈怀恩（2007版）</p>
+                  <p>weekend</p>
+                  <p>choochoo</p>
+              </div>
+              <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+            </div>
+          </a>
+        </div>
+        <a class="title primary-link fleece" href="https://site.douban.com/snpmusic/" target="_blank">张萱</a>
+        <p class="genre">流行 Pop</p>
+      </div>
+      <div class="clearfix"></div>
+    <div class="clearfix"></div>
+
+      </div>
+  </div>
+
+  <div class="editor-featured section">
+      <div class="header">
+          <h2>编辑推荐</h2>
+      </div>
+      <div class="slick features">
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img1.doubanio.com/view/music_index_feature/mid/public/c47798.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=694086,694207,694282,694152,694085,694161,"
+                 data-sids="694086,694207,694282,694152,694085,694161,"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>可这是我的命运吗？</p>
+                    <p>火雪莲</p>
+                    <p>夜游者狂想曲</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【音乐人】</p>
+              <h3><a class="primary-link" href="https://site.douban.com/zhuxin/" target="_blank">朱子芥</a></h3>
+              <h4>93人关注</h4>
+              <p>意象，曲式，歌曲的长度，还有一些恰到好处的口音与跑音，邀请鲍勃迪伦的乐迷会心一笑。</p>
+          </div>
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img1.doubanio.com/view/music_index_feature/mid/public/c47639.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=693847,693846,694291,693845,694281"
+                 data-sids="693847,693846,694291,693845,694281"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>我的孤独是一枚小小的邮票</p>
+                    <p>我想有个家</p>
+                    <p>let&#39;s dick together（中文版）</p>
+                    <p>It&#39;s raining deep down</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【音乐人】</p>
+              <h3><a class="primary-link" href="https://site.douban.com/DocGuan/" target="_blank">Doc Guan</a></h3>
+              <h4>10人关注</h4>
+              <p>脏手指正在得到很多的关注、青睐与嫉妒。不过也可以听听主唱管啸天，有趣上口，正点的颓废</p>
+          </div>
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img3.doubanio.com/view/music_index_feature/mid/public/c47882.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=694413,694416,694414,694415"
+                 data-sids="694413,694416,694414,694415"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>紅磚/ Bleeding Brick</p>
+                    <p>眨眼間/ In A Blink</p>
+                    <p>鏡中燭火/ Candle In Mirror</p>
+                    <p>一波未平/ SitIll Coming Yet</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【专辑】</p>
+              <h3><a class="primary-link" href="https://site.douban.com/fang_jam/" target="_blank">一波未平</a></h3>
+              <h4><a class="site-link" href="https://site.douban.com/fang_jam/" target="_blank">Fāng Jam</a></h4>
+              <p>混合着异国 funk情愫的hip-hop器乐曲，好听又好用。</p>
+          </div>
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img1.doubanio.com/view/music_index_feature/mid/public/c47597.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=693647"
+                 data-sids="693647"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>mind fiber &amp; Soviet Pop - 春雪 （2013年3月19日XP现场）</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【歌曲】</p>
+              <h3><a class="primary-link" href="https://site.douban.com/mindfiber/" target="_blank">春雪（与苏维埃·波普四重奏）</a></h3>
+              <h4><a class="site-link" href="https://site.douban.com/mindfiber/" target="_blank">mind fiber</a></h4>
+              <p>四年前的一次现场录音，李剑鸿、韦玮、李青、李维思，很安静很投入。</p>
+          </div>
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img1.doubanio.com/view/music_index_feature/mid/public/c47459.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=693181,693179,693167,693169,693186,693180,693184,693182,693166"
+                 data-sids="693181,693179,693167,693169,693186,693180,693184,693182,693166"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>没有什么可以激动的了</p>
+                    <p>傻乎乎的老杨</p>
+                    <p>掐蒜薹</p>
+                    <p>立场记</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【专辑】</p>
+              <h3><a class="primary-link" href="https://music.douban.com/subject/1966539/" target="_blank">内部参考 二〇〇四</a></h3>
+              <h4><a class="site-link" href="https://site.douban.com/laoyangyi/" target="_blank">杨一</a></h4>
+              <p>最好的中国民谣专辑诞生在十三年前。打通了古代与当下，都市与农村之间的脉络。</p>
+          </div>
+          <div class="feature-item">
+              
+              <a class="cover player-playable"
+                 style="background-image: url(https://img5.doubanio.com/view/music_index_feature/mid/public/c47326.jpg);"
+                 href="https://music.douban.com/artists/player/?sid=693171"
+                 data-sids="693171"
+                 target="_blank">
+                <div class="player-round-btn-bg">
+                  <div class="hoverlay">
+                    <p>Demo IX.MMXVI</p>
+                  </div>
+                  <span class="span-player-round-btn"><i class="icon-player-round-btn"></i></span>
+                </div>
+              </a>
+              <p>【音乐人】</p>
+              <h3><a class="primary-link" href="https://site.douban.com/ruo-tan/" target="_blank">Heimatlos 無家</a></h3>
+              <h4>47人关注</h4>
+              <p>Heimatlos 無家 由南京人若谭和法国人 aLMa 在法国组建，长音/仪式/黑金属/噪音的lofi声响。</p>
+          </div>
+      </div>
+  </div>
+
+  
+
+
+  <!-- douban ad begin -->
+  <div id="dale_music_home_left_middle" class="s" data-dstat-areaid="102" data-dstat-mode="click,expose"></div>
+  <!-- douban ad end -->
+
+  
+<div data-react-component="NewAlbums" class="new-albums"></div>
+    
+
+
+  
+<div data-react-component="HotProgrammes" class="hot-programmes"></div>
+    
+
+
+  <!-- douban ad begin -->
+  <div id="dale_music_home_left_bottom"></div>
+  <!-- douban ad end -->
+
+        </div>
+        <div class="aside">
+                
+    <!-- douban ad begin -->
+    <div id="dale_music_home_top_right" class="s" data-dstat-areaid="101" data-dstat-mode="click,expose"></div>
+    <div id="dale_music_home_top_right2" class="s" data-dstat-areaid="101" data-dstat-mode="click,expose"></div>
+    <!-- douban ad end -->
+
+    <div class="join">
+        <div class="join-block">
+            <h2><a href="/artists/genre_page/6/" class="primary-link" target="_blank">40906</a></h2>
+            <p>音乐人</p>
+        </div>
+        <div class="join-block">
+            <h2><a href="/disc_jockeys/" class="primary-link" target="_blank">2496</a></h2>
+            <p>播客</p>
+        </div>
+        <div class="join-block join-block-last">
+            <h2><a href="/labels/" class="primary-link" target="_blank">972</a></h2>
+            <p>厂牌</p>
+        </div>
+        <div class='clearfix'></div>
+        <a class="button" href="https://artist.douban.com/new" target="_blank">我要加入</a>
+    </div>
+
+    <div class="tag-block">
+        <div class="tag-header">热门音乐人分类</div>
+        <div class="tag-more"><a href="/artists/tag/">更多</a></div>
+        <div class="clearfix"></div>
+        <table>
+            
+            <tr>
+                <th><a href="/artists/genre_page/6/" target="_blank">流行</a></th>
+                <td><a href="/artists/genre_page/2/" target="_blank">轻音乐</a></td>
+            </tr>
+            <tr>
+                <th><a href="/artists/genre_page/8/" target="_blank">摇滚</a></th>
+                <td><a href="/artists/genre_page/1/" target="_blank">古典</a></td>
+            </tr>
+            <tr>
+                <th><a href="/artists/genre_page/3/" target="_blank">电子</a></th>
+                <td><a href="/artists/genre_page/10/" target="_blank">世界音乐</a></td>
+            </tr>
+            <tr>
+                <th><a href="/artists/genre_page/4/" target="_blank">民谣</a></th>
+                <td><a href="/artists/genre_page/7/" target="_blank">说唱</a></td>
+            </tr>
+            <tr>
+                <th><a href="/artists/genre_page/5/" target="_blank">爵士</a></th>
+                <td><a href="/artists/genre_page/9/" target="_blank">原声</a></td>
+            </tr>
+        </table>
+    </div>
+
+    
+<div data-react-component="HotArtistSongs" class="hot-artist-songs"></div>
+    
+
+
+    <div class="rec-info">
+        <h2>豆瓣音乐250<span class="pl"><a href="/top250" target="_blank">更多</a></span></h2>
+        <div class="content clearfix" id="music_rec">
+                
+                
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1416697/"><img src="https://img3.doubanio.com/spic/s3020073.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1416697/">Nirvana</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1436673/"><img src="https://img3.doubanio.com/spic/s2552894.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1436673/">在动物园散步才是正经事</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1395089/"><img src="https://img3.doubanio.com/spic/s1430722.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1395089/">旅行的意义</a><span class="gact"></span><br/></dd>
+        </dl>
+        <div class="clearfix rr" style="width:100%"></div>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1431596/"><img src="https://img1.doubanio.com/spic/s3572868.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1431596/">Wake Me Up When September Ends</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/10430415/"><img src="https://img1.doubanio.com/spic/s28104019.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/10430415/">世界</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1999781/"><img src="https://img1.doubanio.com/spic/s2674348.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1999781/">These Friends Of Mine</a><span class="gact"></span><br/></dd>
+        </dl>
+        <div class="clearfix rr" style="width:100%"></div>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/3603814/"><img src="https://img3.doubanio.com/spic/s3666735.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/3603814/">H³M</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/1395762/"><img src="https://img3.doubanio.com/spic/s1489321.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/1395762/">天空の城ラピュタ サウンドトラック 飛行石の謎</a><span class="gact"></span><br/></dd>
+        </dl>
+        <dl>
+            <dt><a href="https://music.douban.com/subject/3671026/"><img src="https://img1.doubanio.com/spic/s3763169.jpg" class="m_sub_img"/></a></dt>
+            <dd><a class="primary-link" href="https://music.douban.com/subject/3671026/">春·日光</a><span class="gact"></span><br/></dd>
+        </dl>
+        <div class="clearfix rr" style="width:100%"></div>
+
+        </div>
+    </div>
+
+    <!-- douban app begin -->
+    <div class="s" data-dstat-areaid="117" data-dstat-mode="click,expose">
+        
+
+
+
+
+
+<div class="mobile-app-entrance block5 app-music">
+
+    <a id="" class="entrance-link first-link" href="https://douban.fm/app?from_=music_app_entrance">
+        <span class="app-icon icon-fm"></span>
+        <span class="main-title">豆瓣FM客户端</span>
+        <span class="sub-title">让好音乐继续</span>
+    </a>
+    <a id="" class="entrance-link" href="https://artist.douban.com/app">
+        <span class="app-icon icon-artists"></span>
+        <span class="main-title">豆瓣音乐人客户端</span>
+        <span class="sub-title">发现当下最酷的独立音乐</span>
+    </a>
+</div>
+
+    </div>
+
+    <!-- douban app end -->
+    <div class="contact mod">
+        <h2>联系我们<a href="mailto:artists@douban.com">artists@douban.com</a></h2>
+        <ul class="embassy-list clearfix">
+            <li>
+                <a href="https://site.douban.com/artists/" target="_blank" class="icon-embassy-site"></a>
+                <a href="https://site.douban.com/artists/" target="_blank" class="primary-link">音乐人小站</a>
+            </li>
+            <li>
+                <a href="http://weibo.com/doubanartists" target="_blank" class="icon-embassy-weibo"></a>
+                <a href="http://weibo.com/doubanartists" target="_blank" class="primary-link">音乐人微博</a>
+            </li>
+            <li>
+                <a class="icon-embassy-weixin">
+                    <div class="hover"><img src="https://img3.doubanio.com/f/music/8e0e634c8b45ae2168b7a07e46d4678c9b0ca2f8/pics/music/home/home_qrcode.png"></div>
+                </a>
+                <a class="primary-link">音乐人微信</a>
+            </li>
+        </ul>
+        <ul class="embassy-list clearfix">
+            <li>
+                <a href="https://site.douban.com/douban.fm/" target="_blank" class="icon-embassy-site-fm"></a>
+                <a href="https://site.douban.com/douban.fm/" target="_blank" class="primary-link">FM小站</a>
+            </li>
+            <li>
+                <a href="http://weibo.com/doubanradio" target="_blank" class="icon-embassy-weibo"></a>
+                <a href="http://weibo.com/doubanradio" target="_blank" class="primary-link">FM微博</a>
+            </li>
+            <li>
+                <a class="icon-embassy-weixin">
+                    <div class="hover"><img src="https://img3.doubanio.com/f/music/c4666eec39a189287917319238f4097c3fddc974/pics/music/home/weixin.jpg"></div>
+                </a>
+                <a class="primary-link">FM微信</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- douban ad begin -->
+    <div id="dale_music_home_bottom_right" class="mod"></div>
+    <!-- douban ad end -->
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+</div>
+
+        
+<div id="footer">
+    
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2017 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="https://help.douban.com/?app=music" target="_blank">帮助中心</a>
+    · <a href="https://douban.fm/app">手机音乐</a>
+    · <a href="https://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+</div>
+
+    </div>
+    <script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/7d61cad123f6754b.js"></script><script type="text/javascript">
+        Do('artistplayer', function(){
+            var React = window.muin.React;
+            var $el = $('[data-react-component=HotArtistSongs]');
+            var component = window.muin[$el.data('react-component')];
+            if(!component) {
+                console.error('component', $el.data('react-component'), 'not found.')
+            }
+            React.render(React.createElement(component, {"sections":[{"songs":[{"index":0,"picture":"https://img1.doubanio.com\/spic\/s29327517.jpg","title":"海风","artist_name":"佟妍","play_count":4871,"sid":"691786"},{"index":1,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/fc00cb95a9b74d9.jpg","title":"Ain't I Lost Control","artist_name":"放肆的肆","play_count":28901,"sid":"692349"},{"index":2,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/62fa3273a2eca1c.jpg","title":"讲古","artist_name":"梁先生","play_count":2753,"sid":"692904"},{"index":3,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/33174cc20a0520d.jpg","title":"没有什么可以激动的了","artist_name":"杨一","play_count":970,"sid":"693181"},{"index":4,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/72174c83cc522ad.jpg","title":"13号线","artist_name":"鞠起和Mr.Kr","play_count":2787,"sid":"693607"},{"index":5,"picture":"https://img3.doubanio.com\/view\/sitesong\/small\/public\/1487016952.jpg","title":"The second dream","artist_name":"City Flanker","play_count":2354,"sid":"692701"},{"index":6,"picture":"https://img1.doubanio.com\/view\/sitesong\/small\/public\/1487917917.jpg","title":"玫瑰 ","artist_name":"贰佰","play_count":1049,"sid":"693954"},{"index":7,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/3eb4d7c61f79daa.jpg","title":"It is obvious (demo)","artist_name":"TOW","play_count":4384,"sid":"692793"},{"index":8,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/0d817195628ae96.jpg","title":"云南","artist_name":"安吉丽娜","play_count":5322,"sid":"692510"},{"index":9,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/e1127c90eee1218.jpg","title":"月亮与六便士","artist_name":"海带","play_count":11767,"sid":"691781"}],"id":"100","title":"最热"},{"songs":[{"index":0,"picture":"https://img3.doubanio.com\/view\/sitesong\/small\/public\/1487016952.jpg","title":"The second dream","artist_name":"City Flanker","play_count":2354,"sid":"692701"},{"index":1,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/e1127c90eee1218.jpg","title":"月亮与六便士","artist_name":"海带","play_count":11767,"sid":"691781"},{"index":2,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/dd9451e88c63653.jpg","title":"The Snake Dance","artist_name":"李驰","play_count":1073,"sid":"692587"},{"index":3,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/41fb967814ad156.jpg","title":"Lukewarm (demo)","artist_name":"P. Murk","play_count":749,"sid":"693424"},{"index":4,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/420158625cd53c0.jpg","title":"无","artist_name":"Gate to Otherside","play_count":312,"sid":"693929"},{"index":5,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/a5d919fa0dc882d.jpg","title":"TARDY","artist_name":"The White Tulips","play_count":167,"sid":"693079"},{"index":6,"picture":"https://img3.doubanio.com\/view\/sitesong\/small\/public\/1487727640.jpg","title":"穿越无人区","artist_name":"窒息乐队","play_count":159,"sid":"693674"},{"index":7,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/fdedc2fcd4c0df7.jpg","title":"DEMO-01","artist_name":"Stink bomb","play_count":38,"sid":"693615"},{"index":8,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/2040759d9c2b4be.jpg","title":"Enough(True Thrash Fest Promo)","artist_name":" Disanxian (地-三鮮)","play_count":18,"sid":"691732"},{"index":9,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/d70011579f6d326.jpg","title":"04_Milu_Enrichissement = bonheur","artist_name":"Milu","play_count":79,"sid":"691954"}],"id":"8","title":"摇滚"},{"songs":[{"index":0,"picture":"https://img1.doubanio.com\/spic\/s29327517.jpg","title":"海风","artist_name":"佟妍","play_count":4871,"sid":"691786"},{"index":1,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/62fa3273a2eca1c.jpg","title":"讲古","artist_name":"梁先生","play_count":2753,"sid":"692904"},{"index":2,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/33174cc20a0520d.jpg","title":"没有什么可以激动的了","artist_name":"杨一","play_count":970,"sid":"693181"},{"index":3,"picture":"https://img1.doubanio.com\/view\/sitesong\/small\/public\/1487917917.jpg","title":"玫瑰 ","artist_name":"贰佰","play_count":1049,"sid":"693954"},{"index":4,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/0d817195628ae96.jpg","title":"云南","artist_name":"安吉丽娜","play_count":5322,"sid":"692510"},{"index":5,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/c5943ce071716f1.jpg","title":"Alone with Everybody","artist_name":"朱靓妤","play_count":147,"sid":"694130"},{"index":6,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/eba98ff8224b71b.jpg","title":"给未知恋人的一封信","artist_name":"左一零","play_count":5989,"sid":"691655"},{"index":7,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/b598aae89b03218.jpg","title":"雨好","artist_name":"陈鸿宇","play_count":20643,"sid":"691519"},{"index":8,"picture":"https://img3.doubanio.com\/view\/sitesong\/small\/public\/1486978724.jpg","title":"大遊仙（早春首發版）","artist_name":"秘密後院","play_count":1050,"sid":"692612"},{"index":9,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/4dc8ec76c855ca4.jpg","title":"认真的老去","artist_name":"张希、曹方","play_count":62,"sid":"694349"}],"id":"4","title":"民谣"},{"songs":[{"index":0,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/fc00cb95a9b74d9.jpg","title":"Ain't I Lost Control","artist_name":"放肆的肆","play_count":28901,"sid":"692349"},{"index":1,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/72174c83cc522ad.jpg","title":"13号线","artist_name":"鞠起和Mr.Kr","play_count":2787,"sid":"693607"},{"index":2,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/9e38c40a0876647.jpg","title":"跳动的蚂蚱","artist_name":"阿力普","play_count":355,"sid":"693912"},{"index":3,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/03ae28984c6892d.jpg","title":"Tears","artist_name":"Mr.マーベル","play_count":11655,"sid":"692025"},{"index":4,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/1256d6176fae9ca.jpg","title":"萧声何处","artist_name":"文芃芃","play_count":26,"sid":"692506"},{"index":5,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/ed29a727076c272.jpg","title":"最好的朋友","artist_name":"许吉如","play_count":2467,"sid":"692236"},{"index":6,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/aa794c00fd3a8ec.jpg","title":"黑洞","artist_name":"养鸡","play_count":118,"sid":"693458"},{"index":7,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/7a1a11bf9527db6.jpg","title":"张雪飞无药可救","artist_name":"门红波","play_count":158,"sid":"692857"},{"index":8,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/f820045b2d7b0fd.jpg","title":"圣诞节","artist_name":"Devil","play_count":13,"sid":"694287"},{"index":9,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/ec039d640b9ba9b.jpg","title":"暧昧","artist_name":"威风木瓜","play_count":22,"sid":"694201"}],"id":"6","title":"流行"},{"songs":[{"index":0,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/e7989aed7c0b7bd.jpg","title":"不会啊","artist_name":"陈一一","play_count":319,"sid":"693239"},{"index":1,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/86dc7b01e62c157.jpg","title":"6","artist_name":"时态","play_count":10,"sid":"694224"},{"index":2,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/00fa921ad6e882b.jpg","title":"春-demo","artist_name":"二道","play_count":13,"sid":"693677"},{"index":3,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/6dc5322e9b4bc66.jpg","title":"DTL-7: jz-L2 (Original Mix)","artist_name":"WISEFAKE","play_count":40,"sid":"694143"},{"index":4,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/b6cd2489ead8988.jpg","title":"space tribe Ⅱ - Demo","artist_name":"Empty17","play_count":16,"sid":"693746"},{"index":5,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/4a4c131cd9af5ab.jpg","title":"ADS","artist_name":"Sinky","play_count":28,"sid":"692610"},{"index":6,"picture":"https://img3.doubanio.com\/view\/site\/small\/public\/3a33a0f74497240.jpg","title":"Look Forward","artist_name":"林轩","play_count":31,"sid":"693019"},{"index":7,"picture":"https://img5.doubanio.com\/view\/site\/small\/public\/82bb38c94d8d896.jpg","title":"Julida预告片 remix ","artist_name":"41 Ninja","play_count":21,"sid":"692368"},{"index":8,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/652f71abd7a84da.jpg","title":"call me daddy","artist_name":"Xiaoyi","play_count":129,"sid":"691567"},{"index":9,"picture":"https://img1.doubanio.com\/view\/site\/small\/public\/e505bc86c16c6b7.jpg","title":"Fools on the Moon","artist_name":"Purple Parakeet","play_count":23,"sid":"693091"}],"id":"3","title":"电子"}],"title":"本周单曲榜"}), $el[0]);
+        });
+    </script>
+    
+
+    <!-- douban ad begin -->
+    
+
+
+
+
+    
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = '1Bgtvnx-_xg',
+            criteria = '3:/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_music_home_left_middle', 'dale_music_home_left_bottom', 'dale_music_home_top_right', 'dale_music_home_top_right2', 'dale_music_home_bottom_banner', 'dale_music_home_bottom_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'https://img3.doubanio.com/f/shire/99a1c905fb5a6d46d8e742d60199e3a99414a580/js/ad.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+
+
+    <!-- douban ad end -->
+<script>
+    $(function(){
+        $('.new-artists-tab').addClass('deactivated');
+        $('.new-artists').hide();
+        $('.new-artists-tab').click(function(){
+            $('.artists-tab').addClass('deactivated');
+            $('.new-artists-tab').removeClass('deactivated');
+            $('.artists').hide();
+            $('.new-artists').show();
+        });
+        $('.artists-tab').click(function(){
+            $('.new-artists-tab').addClass('deactivated');
+            $('.artists-tab').removeClass('deactivated');
+            $('.new-artists').hide();
+            $('.artists').show();
+        });
+        (function bind_music_x(){
+            var c=arguments.callee
+            $('.music_x').click(function(){
+                if(confirm("你确定要" + this.title)){
+                    $("#music_rec").load_withck(
+                        "/j/music/j_music_rec",{s:this.rel},c
+                        )
+                }
+            })
+        })();
+        Do('artistplayer', function () {
+            var isPlayerLoaded = false;
+            artistsPlayer.ready(function(artistsPlayer, hasPlayer){
+                isPlayerLoaded = true;
+            });
+            $('.player-playable').click(function(event) {
+                event.preventDefault();
+                var sids = "" + $(this).data('sids');
+                if (sids && sids.length > 0) {
+                    isPlayerLoaded && artistsPlayer.play(sids.split(','), {source: 'home'});
+                }
+            });
+        });
+    });
+</script>
+
+    
+    
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5WP579" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5WP579');</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://img3.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_setCampNameKey', 'dcn']);
+_gaq.push(['_setCampSourceKey', 'dcs']);
+_gaq.push(['_setCampMediumKey', 'dcm']);
+_gaq.push(['_setCampTermKey', 'dct']);
+_gaq.push(['_setCampContentKey', 'dcc']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]);
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+    <!-- sindar17d-docker-->
+
+  <script>_SPLITTEST=''</script>
+</body>
+
+</html>
+
