@@ -102,5 +102,5 @@ def get_sign_info(content):
 
 if __name__ == "__main__":
     c = zhihu_client()
-    c.login('18516995767', 'zhihu3@py')
+    c.login('xxx', 'xxxx')
     c.get_info()
