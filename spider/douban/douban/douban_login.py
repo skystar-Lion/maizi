@@ -177,7 +177,7 @@ def get_ck(content):
 if __name__ == '__main__':
 
     c = douban_client()
-    c.login("3156224085@qq.com", "doubi2@py")
+    c.login("xxx", "xxx")
     sig = "huangzi"
     c.edit_signature(sig)
     
