@@ -1,0 +1,534 @@
+2017-03-08 18:10:04 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: tm_goods)
+2017-03-08 18:10:04 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'tm_goods', 'LOG_FILE': 'TMAIL', 'NEWSPIDER_MODULE': 'tm_goods.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['tm_goods.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+2017-03-08 18:10:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-03-08 18:10:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-08 18:10:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-08 18:10:04 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-03-08 18:10:04 [scrapy.core.engine] INFO: Spider opened
+2017-03-08 18:10:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-08 18:10:04 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-03-08 18:10:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://list.suning.com/robots.txt> (referer: None)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://list.suning.com/0-346873-0.html> (referer: None)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://product.suning.com/robots.txt> (referer: None)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070074640/168968024.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070078358/193243152.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070062935/169168584.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070094698/145191915.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070074640/168968024.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['韦斯普旗舰店'],
+ 'shop_site': ['http://vesllp.suning.com'],
+ 'shop_tel': ['18905085545']}
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070092449/144904800.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070097622/142064822.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070074640/601332746.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070078358/193243152.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['花花公子比撒专营店'],
+ 'shop_site': ['http://shop.suning.com/70078358/index.html'],
+ 'shop_tel': ['13962311286']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070062935/169168584.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['红豆(HOdo)官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70062935/index.html'],
+ 'shop_tel': ['0510-66868046']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070098057/134023235.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070094698/145191915.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普琳达男装专营店'],
+ 'shop_site': ['//shop.suning.com/70094698/index.html'],
+ 'shop_tel': ['18770553331']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070125137/192401706.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070092449/144904800.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['古仕卡特男装专营店'],
+ 'shop_site': ['//shop.suning.com/70092449/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070097622/142064822.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['狮臣懒猫专营店'],
+ 'shop_site': ['http://shichen.suning.com'],
+ 'shop_tel': ['13647790040']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070074640/601332746.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['韦斯普旗舰店'],
+ 'shop_site': ['http://vesllp.suning.com'],
+ 'shop_tel': ['18905085545']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070097622/166651258.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070098057/134023235.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['昊齐旗舰店'],
+ 'shop_site': ['//shop.suning.com/70098057/index.html'],
+ 'shop_tel': ['0533-2613111']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070125137/192401706.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['花花公子贵宾男装旗舰店'],
+ 'shop_site': ['//shop.suning.com/70125137/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070097622/166651258.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['狮臣懒猫专营店'],
+ 'shop_site': ['http://shichen.suning.com'],
+ 'shop_tel': ['13647790040']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070062935/164680782.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070142998/169229967.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070092449/166904265.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070062935/164680782.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['红豆(HOdo)官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70062935/index.html'],
+ 'shop_tel': ['0510-66868046']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070069567/121559525.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070074929/165521053.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070074286/121020059.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070142998/169229967.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['麦斯生活秀服饰旗舰店'],
+ 'shop_site': ['http://mlife.suning.com'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070092449/166904265.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['古仕卡特男装专营店'],
+ 'shop_site': ['//shop.suning.com/70092449/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070069567/121559525.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['圣里德旗舰店'],
+ 'shop_site': ['http://stleader.suning.com'],
+ 'shop_tel': ['13506082336']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070074929/165521053.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['卡迈奴旗舰店'],
+ 'shop_site': ['http://kamainu.suning.com'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070074929/168555511.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070074286/121020059.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['BEBEERU男装旗舰店'],
+ 'shop_site': ['//shop.suning.com/70074286/index.html'],
+ 'shop_tel': ['13916510408']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070125137/165561152.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070094507/169095204.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070074929/168555511.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['卡迈奴旗舰店'],
+ 'shop_site': ['http://kamainu.suning.com'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070125137/165561152.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['花花公子贵宾男装旗舰店'],
+ 'shop_site': ['//shop.suning.com/70125137/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070081108/175013279.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070094507/169096059.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070094507/169095204.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普跳跳专营店'],
+ 'shop_site': ['http://shop.suning.com/70094507/index.html'],
+ 'shop_tel': ['15267040142']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070081021/167368063.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070069567/122942050.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070136884/165390879.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070081108/175013279.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['海澜之家官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70081108/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070094507/169096059.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普跳跳专营店'],
+ 'shop_site': ['http://shop.suning.com/70094507/index.html'],
+ 'shop_tel': ['15267040142']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070081021/167368063.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['恒源祥羽绒服饰官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70081021/index.html'],
+ 'shop_tel': ['0512-81585159']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070069567/122942050.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['圣里德旗舰店'],
+ 'shop_site': ['http://stleader.suning.com'],
+ 'shop_tel': ['13506082336']}
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070136884/165390879.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['迪赛吉普旗舰店'],
+ 'shop_site': ['http://dssjeep.suning.com'],
+ 'shop_tel': ['0595-88800029']}
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070098057/146147901.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070087144/167002064.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070137430/150909126.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070098057/146147901.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['昊齐旗舰店'],
+ 'shop_site': ['//shop.suning.com/70098057/index.html'],
+ 'shop_tel': ['0533-2613111']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070087144/167002064.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['雅戈尔官方旗舰店'],
+ 'shop_site': ['http://youngor.suning.com'],
+ 'shop_tel': ['0574-56577145']}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070110791/178542998.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070137430/150909126.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['墨麦客官方旗舰店'],
+ 'shop_site': ['http://mmaicco.suning.com'],
+ 'shop_tel': ['0571-28063083']}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070068956/169008430.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070089559/167765758.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070095871/129337493.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070110791/178542998.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['哥缇旗舰店'],
+ 'shop_site': ['//shop.suning.com/70110791/index.html'],
+ 'shop_tel': ['15197536881']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070068956/169008430.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['千纸鹤旗舰店'],
+ 'shop_site': ['//shop.suning.com/70068956/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070073866/133938812.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070089559/167765758.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['古堡勇者品牌旗舰店'],
+ 'shop_site': ['//shop.suning.com/70089559/index.html'],
+ 'shop_tel': ['13291425212']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070095871/129337493.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普岸边专营店'],
+ 'shop_site': ['//shop.suning.com/70095871/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070127172/140271770.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070079993/132355457.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070073866/133938812.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['KXP旗舰店'],
+ 'shop_site': ['//shop.suning.com/70073866/index.html'],
+ 'shop_tel': ['18960467638']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070127172/140271770.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['君佬旗舰店'],
+ 'shop_site': ['//shop.suning.com/70127172/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070079993/132355457.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['丹杰仕型尚服饰男装专营店'],
+ 'shop_site': ['http://shop.suning.com/70079993/index.html'],
+ 'shop_tel': ['15305718755']}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070141506/182638921.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070140340/174637537.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070139300/169702280.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070075676/143055701.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070067499/106098930.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070154007/191542495.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070141506/182638921.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['圣光喵服饰专营店'],
+ 'shop_site': ['http://shengguangmiao.suning.com'],
+ 'shop_tel': ['18770248365']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070140340/174637537.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['JackJones诚信鼎服饰专营店'],
+ 'shop_site': ['http://jackjones.suning.com'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070139300/169702280.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['Hzaraszk官方旗舰店'],
+ 'shop_site': ['http://hzaraszk.suning.com'],
+ 'shop_tel': ['15377492388']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070075676/143055701.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['七匹狼官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70075676/index.html'],
+ 'shop_tel': ['18060928657']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070067499/106098930.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['AFS JEEP战地吉普举翼专营店'],
+ 'shop_site': ['//shop.suning.com/70067499/index.html'],
+ 'shop_tel': ['13918246961']}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070154007/191542495.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['卡帝乐鳄鱼服装旗舰店'],
+ 'shop_site': ['http://cartelofushi.suning.com'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070100229/133602931.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070136884/165081120.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070068956/160385973.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070100229/133602931.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['才子官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70100229/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070136884/165081120.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['迪赛吉普旗舰店'],
+ 'shop_site': ['http://dssjeep.suning.com'],
+ 'shop_tel': ['0595-88800029']}
+2017-03-08 18:10:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070062841/180593093.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070081108/170759383.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070068956/160385973.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['千纸鹤旗舰店'],
+ 'shop_site': ['//shop.suning.com/70068956/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070100229/183579674.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070087144/167099728.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070062841/180593093.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['恒源祥旗舰店'],
+ 'shop_site': ['//shop.suning.com/70062841/index.html'],
+ 'shop_tel': ['18903888209']}
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070075676/172376584.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070081108/170759383.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['海澜之家官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70081108/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070100229/183579674.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['才子官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70100229/index.html'],
+ 'shop_tel': []}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070087144/167099728.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['雅戈尔官方旗舰店'],
+ 'shop_site': ['http://youngor.suning.com'],
+ 'shop_tel': ['0574-56577145']}
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070128084/167463805.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070075676/172376584.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['七匹狼官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70075676/index.html'],
+ 'shop_tel': ['18060928657']}
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070073866/135727011.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070148087/193398719.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070125778/182792186.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070128084/167463805.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['吉普盾牛仔服饰专营店'],
+ 'shop_site': ['//shop.suning.com/70128084/index.html'],
+ 'shop_tel': ['020-82881499']}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070073866/135727011.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['KXP旗舰店'],
+ 'shop_site': ['//shop.suning.com/70073866/index.html'],
+ 'shop_tel': ['18960467638']}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070148087/193398719.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['雅鹿男装旗舰店'],
+ 'shop_site': ['http://yalunzqjd.suning.com'],
+ 'shop_tel': ['17715523556']}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070125778/182792186.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['男风窗官方旗舰店'],
+ 'shop_site': ['//shop.suning.com/70125778/index.html'],
+ 'shop_tel': ['13336060414']}
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070067499/174281522.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070085867/127762447.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070101582/165846898.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070067499/174281522.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['AFS JEEP战地吉普举翼专营店'],
+ 'shop_site': ['//shop.suning.com/70067499/index.html'],
+ 'shop_tel': ['13918246961']}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070085867/127762447.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普舜孜专营店'],
+ 'shop_site': ['//shop.suning.com/70085867/index.html'],
+ 'shop_tel': ['13966375347']}
+2017-03-08 18:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070101582/165846898.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['云麦服饰专营店'],
+ 'shop_site': ['http://yunmai.suning.com'],
+ 'shop_tel': ['15810952689']}
+2017-03-08 18:10:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070127375/168025558.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070127375/168025558.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['爱尚潮流旗舰店'],
+ 'shop_site': ['//shop.suning.com/70127375/index.html'],
+ 'shop_tel': ['18807909158']}
+2017-03-08 18:10:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070127375/181891524.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070145236/181509019.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070127375/181891524.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['爱尚潮流旗舰店'],
+ 'shop_site': ['//shop.suning.com/70127375/index.html'],
+ 'shop_tel': ['18807909158']}
+2017-03-08 18:10:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070145236/181509019.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['梦倾仪服装专营店'],
+ 'shop_site': ['http://nnmqy.suning.com'],
+ 'shop_tel': ['18826430966']}
+2017-03-08 18:10:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070080737/124139910.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070080737/124139910.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普宏宇服饰专营店'],
+ 'shop_site': ['//shop.suning.com/70080737/index.html'],
+ 'shop_tel': ['021-52068575']}
+2017-03-08 18:10:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://product.suning.com/0070094698/600187404.html> (referer: http://list.suning.com/0-346873-0.html)
+2017-03-08 18:10:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://product.suning.com/0070094698/600187404.html>
+{'good_assess_num': ['200+'],
+ 'good_name': ['2016秋装新款男士薄外套 时尚百搭潮男夹克外套 情侣夹克外套 情侣装'],
+ 'good_price': [],
+ 'shop_name': ['战地吉普琳达男装专营店'],
+ 'shop_site': ['//shop.suning.com/70094698/index.html'],
+ 'shop_tel': ['18770553331']}
+2017-03-08 18:10:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-08 18:10:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 25549,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 3163602,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 62,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 8, 10, 10, 26, 945304),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 124,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 61,
+ 'scheduler/dequeued/memory': 61,
+ 'scheduler/enqueued': 61,
+ 'scheduler/enqueued/memory': 61,
+ 'start_time': datetime.datetime(2017, 3, 8, 10, 10, 4, 510118)}
+2017-03-08 18:10:26 [scrapy.core.engine] INFO: Spider closed (finished)

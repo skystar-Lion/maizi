@@ -1,0 +1,686 @@
+2017-03-09 21:57:26 [scrapy.utils.log] INFO: Scrapy 1.3.2 started (bot: douban_mivie)
+2017-03-09 21:57:26 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'douban_mivie', 'LOG_FILE': './log.txt', 'NEWSPIDER_MODULE': 'douban_mivie.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['douban_mivie.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'}
+2017-03-09 21:57:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-03-09 21:57:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-09 21:57:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-09 21:57:26 [scrapy.middleware] INFO: Enabled item pipelines:
+['douban_mivie.pipelines.DoubanMiviePipeline']
+2017-03-09 21:57:26 [scrapy.core.engine] INFO: Spider opened
+2017-03-09 21:57:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-09 21:57:26 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-03-09 21:57:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/robots.txt> (referer: None)
+2017-03-09 21:57:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0> (referer: None)
+2017-03-09 21:57:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:57221/session {"desiredCapabilities": {"browserName": "firefox", "version": "", "platform": "ANY", "javascriptEnabled": true, "marionette": true, "acceptInsecureCerts": true}, "requiredCapabilities": {}}
+2017-03-09 21:57:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-03-09 21:57:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:57221/session/3941a4a6-7beb-4131-bd91-f67774d27948/url {"url": "https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0", "sessionId": "3941a4a6-7beb-4131-bd91-f67774d27948"}
+2017-03-09 21:57:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-03-09 21:57:34 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:57221/session/3941a4a6-7beb-4131-bd91-f67774d27948/source {"sessionId": "3941a4a6-7beb-4131-bd91-f67774d27948"}
+2017-03-09 21:57:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-03-09 21:57:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26323031/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26323031/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt4465564'],
+ 'aliasName': '格雷的五十道色戒2(港) / 格雷的五十道阴影：束缚(台) / 五十度灰2 / 50 Shades Darker',
+ 'brief_info': '年度争议大作《五十度灰》即将在2月13日北美上映，近日，导演萨姆·泰勒-约翰逊，主演詹米·多南和达科塔·约翰逊在纽约一场影片粉丝放映会上，向到场的观众宣布了《五十度灰2》和《五十度灰3》已经确定拍摄的消息。                                                                    \u3000\u3000'
+               '据MTV透露，《五十度灰2》和《五十度灰3》将根据E.L.詹姆斯所著的《五十度黑》（《Fifty Shades '
+               'Darker》）和《五十度飞》（《Fifty Shades '
+               'Freed》）改编，达科塔·约翰逊饰演女主角安娜斯塔西娅·斯蒂尔也将再次登上大银幕。',
+ 'director': ['詹姆斯·弗雷'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2412519473.jpg'],
+ 'initialReleaseDate': ['2017-02-10(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['达科塔·约翰逊',
+                '詹米·多南',
+                '埃里克·约翰逊',
+                '艾洛斯·慕福特',
+                '贝拉·希思科特',
+                '瑞塔·奥拉',
+                '卢克·葛莱姆斯',
+                '维克多·罗塞克',
+                '马克斯·马蒂尼',
+                '布鲁斯·奥尔特曼',
+                '金·贝辛格',
+                '马西娅·盖伊·哈登',
+                '安德鲁·爱尔莱',
+                '萝宾·李',
+                '艾米·普赖斯-弗朗西斯'],
+ 'name': '五十度黑',
+ 'offcialSite': ['http://www.fiftyshadesmovie.com'],
+ 'productAddress': '美国',
+ 'runtime': ['118分钟'],
+ 'score': ['5.0'],
+ 'scriptwriter': '尼尔·伦纳德/E·L·詹姆斯',
+ 'type': ['剧情', '爱情', '情色']}
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/25726614/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26615208/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26410593/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/25793398/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/25980443/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26220650/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/25983044/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26325320/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/25726614/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt3183660'],
+ 'aliasName': '怪兽与它们的产地(港/台) / 神奇生物在哪里 / 神奇的野兽以及在哪里能找到它们',
+ 'brief_info': '故事发生在1926年的纽约，彼时，麻鸡们对魔法师的抵制达到了最高峰，由玛丽露（萨曼莎·莫顿 Samantha Morton '
+               '饰）所领导的反魔法组织活动频繁。与此同时，街头巷尾之中时时发生的种种灾难意外让魔法世界的存在离暴露仅有一线之隔，整个魔法部陷入了空前紧张的气氛之中。                                                                            \u3000\u3000'
+               '就在这个节骨眼上，环游世界进行着研究神奇魔法动物之行动的魔法动物学家纽特（埃迪·雷德梅恩 Eddie Redmayne '
+               '饰）抵达了纽约，他随身携带的魔法手提箱里，装着几十种他一路营救的魔法动物们，而他的一举一动，均处于隶属于魔法部的前傲罗蒂娜（凯瑟琳·沃特森 '
+               'Katherine Waterston 饰）的监视之下。一场意外中，麻鸡雅各布（丹·福格勒 Dan Fogler '
+               '饰）误拿了纽特的手提箱，并且放出了藏在箱子里的魔法动物，为此，纽特、蒂娜、雅各布和蒂娜的妹妹奎妮（艾莉森·苏朵儿...',
+ 'director': ['大卫·叶茨'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2392444121.jpg'],
+ 'initialReleaseDate': ['2016-11-25(中国大陆)', '2016-11-18(美国/英国)'],
+ 'language': '英语',
+ 'lead_actor': ['埃迪·雷德梅恩',
+                '凯瑟琳·沃特斯顿',
+                '丹·福勒',
+                '艾莉森·萨多尔',
+                '科林·法瑞尔',
+                '埃兹拉·米勒',
+                '朗·普尔曼',
+                '强·沃特',
+                '萨曼莎·莫顿',
+                '嘉玛·陈',
+                '卡门·艾乔戈',
+                '克里斯汀·马扎诺',
+                '詹·穆瑞',
+                '约翰尼·德普'],
+ 'name': '神奇动物在哪里',
+ 'offcialSite': ['http://www.imdb.com/title/tt3183660'],
+ 'productAddress': '英国 / 美国',
+ 'runtime': ['133分钟'],
+ 'score': ['7.9'],
+ 'scriptwriter': 'J·K·罗琳',
+ 'type': ['剧情', '奇幻', '冒险']}
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/25978126/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26879060/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/21324900/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26679552/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26696879/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26648249/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26939209/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26616145/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:57:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26615208/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt4846340'],
+ 'aliasName': 'NASA无名英雌(港) / 关键少数(台)',
+ 'brief_info': '影片讲述1962年，汉森饰演的非裔美国数学家与斯宾瑟和梦奈两位“同事”组成智囊团，为宇航员约翰·格伦成功绕地球轨道飞行做出贡献。',
+ 'director': ['特奥多尔·梅尔菲'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2374067318.jpg'],
+ 'initialReleaseDate': ['2016-12-25(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['塔拉吉·P·汉森',
+                '奥克塔维亚·斯宾瑟',
+                '加奈儿·梦奈',
+                '凯文·科斯特纳',
+                '克斯汀·邓斯特',
+                '吉姆·帕森斯',
+                '马赫沙拉·阿里',
+                '阿尔迪斯·霍吉',
+                '格伦·鲍威尔',
+                '金贝利·奎恩',
+                '奥莱克·克鲁帕'],
+ 'name': '隐藏人物',
+ 'offcialSite': ['http://www.imdb.com/title/tt4846340'],
+ 'productAddress': '美国',
+ 'runtime': ['127分钟'],
+ 'score': ['8.6'],
+ 'scriptwriter': '艾莉森·施罗德/特奥多尔·梅尔菲/玛戈特·李·谢特利',
+ 'type': ['剧情', '传记', '历史']}
+2017-03-09 21:57:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26410593/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt5644740'],
+ 'aliasName': 'The King',
+ 'brief_info': '全罗南道木浦家途不幸环境中的“朴泰洙”（暂音译 '
+               '赵寅成饰）成长为一介好事之徒。高中时期目睹偷盗行为的父亲被检察施暴，体悟到权力与力量的重要。虽然奋斗爬上检察官一职，但毫无背景与根基无异于普通上班族。期间了解到权力中心人物检察官“韩强植”（暂音译 '
+               '郑雨盛饰）并归其麾下。木浦的同乡朋友“崔斗日”（暂音译 '
+               '柳俊烈饰）帮助其不断扩展势力，然而成功真的如他们所愿一路畅通？金义城饰演组织头目“金应修”（音译），金雅中饰演富家女出身，费心辅助丈夫“朴泰洙”跻身上流社会的“尚熙”（音译），“朴泰洙”其父由郑成模饰演，其妹由郑恩彩饰演。同时黄胜妍，李珠妍也将参演其中。',
+ 'director': ['韩在林'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2413029060.jpg'],
+ 'initialReleaseDate': ['2017-01-18(韩国)'],
+ 'language': '韩语',
+ 'lead_actor': ['赵寅成', '郑雨盛', '裴晟祐', '金雅中', '柳俊烈', '金素真', '金义城', '郑恩彩'],
+ 'name': '王者',
+ 'offcialSite': ['http://www.imdb.com/title/tt5644740'],
+ 'productAddress': '韩国',
+ 'runtime': ['134分钟'],
+ 'score': ['7.4'],
+ 'scriptwriter': '韩在林',
+ 'type': ['剧情', '犯罪']}
+2017-03-09 21:57:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/25793398/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt3521164'],
+ 'aliasName': '莫阿娜 / 摩阿娜 / 摩瓦娜',
+ 'brief_info': '故事最早始于住在风和海的半神毛伊（道恩·强森 Dwayne Johnson '
+               '配音），他偷走了女神的特菲堤之心，导致岩浆魔鬼厄卡陷入疯狂的状态，南太平洋各小岛也面临着毁灭的威胁。一千多年后，某座小岛上的酋长女儿莫阿娜（奥丽依·卡拉瓦霍 '
+               "Auli'i Cravalho "
+               '配音）在父母的呵护下渐渐长大，童年时她曾偶然捡到特菲堤之心，亦曾受到大海的召唤，然而父亲却严厉禁止莫阿娜出海，即使小岛正遭受着死亡的威胁。从奶奶那里，莫阿娜知晓了他们这一族人的历史，于是为了拯救小岛，她依然出海去寻找被困在某地的毛伊，好让他归还特菲堤之心。历经千辛万苦，莫阿娜终于见到了这个传说中的高傲自大的半神。而毛伊则担心特菲堤之心带来霉运拒绝前往。                                                                    \u3000\u3000'
+               '只不过在命运的指引下，毛伊还是随着莫阿娜踏上未知的征途……',
+ 'director': ['罗恩·克莱蒙兹', '约翰·马斯克'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2397960879.jpg'],
+ 'initialReleaseDate': ['2016-11-25(中国大陆)', '2016-11-23(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['奥丽伊·卡瓦洛',
+                '道恩·强森',
+                '艾伦·图代克',
+                '杰梅奈·克莱门特',
+                '尼可·斯彻金格',
+                '特穆拉·莫里森',
+                '瑞切尔·豪斯',
+                '奥斯卡·凯特利',
+                '特洛伊·波拉马鲁'],
+ 'name': '海洋奇缘',
+ 'offcialSite': ['http://www.imdb.com/title/tt3521164'],
+ 'productAddress': '美国',
+ 'runtime': ['107分钟'],
+ 'score': ['7.6'],
+ 'scriptwriter': '罗恩·克莱蒙兹/约翰·马斯克/塔伊加·维迪提/杰拉德·布什',
+ 'type': ['喜剧', '动画', '歌舞', '家庭', '奇幻', '冒险']}
+2017-03-09 21:57:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/25980443/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt4034228'],
+ 'aliasName': '情系海边之城(港)',
+ 'brief_info': '李（卡西·阿弗莱克 Casey Affleck 饰）是一名颓废压抑的修理工，在得知哥哥乔伊（凯尔·钱德勒 Kyle '
+               'Chandler '
+               '饰）去世的消息后，李回到了故乡——海边的曼彻斯特处理乔伊的后事。根据乔伊的遗嘱，李将会成为乔伊的儿子帕特里克（卢卡斯·赫奇斯 '
+               'Lucas Hedg es '
+               '饰）的监护人，李打算将帕特里克带回波士顿，但很显然帕特里克并不愿意离开家乡和朋友们，但李亦不愿在这片伤心地久留。                                                                    \u3000\u3000'
+               '原来，曼彻斯特埋藏着李的一段绝望的回忆，他的过失使得两个女儿葬身火海，妻子兰迪（米歇尔·威廉姆斯 Michelle '
+               'Williams '
+               '饰）亦因此而离开了他。此次重回故乡，李再度见到了已经再婚并且即将做妈妈的兰迪，与此同时，帕特里克那失踪已久的母亲艾丽斯（格瑞辰·摩尔 '
+               'Gretchen Mol 饰）亦联系上了帕特里克，希望他能够成为她的新家庭中的一员。',
+ 'director': ['肯尼思·洛纳根'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2421855655.jpg'],
+ 'initialReleaseDate': ['2016-09-08(多伦多电影节)', '2016-11-18(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['卡西·阿弗莱克',
+                '卢卡斯·赫奇斯',
+                '米歇尔·威廉姆斯',
+                'C·J·威尔逊',
+                '凯尔·钱德勒',
+                '卡拉·海沃德',
+                '格瑞辰·摩尔',
+                '泰特·多诺万',
+                '埃里卡·麦克德莫特',
+                '希瑟·伯恩斯',
+                '蜜西·雅格',
+                '斯蒂芬·亨德森',
+                '约什·汉密尔顿',
+                '卡洛琳·皮克曼',
+                '肖恩·菲茨吉本',
+                '肯尼思·洛纳根',
+                '利亚姆·麦克尼尔',
+                '马修·布罗德里克'],
+ 'name': '海边的曼彻斯特',
+ 'offcialSite': ['http://manchesterbytheseathemovie.com'],
+ 'productAddress': '美国',
+ 'runtime': ['137分钟'],
+ 'score': ['8.6'],
+ 'scriptwriter': '肯尼思·洛纳根',
+ 'type': ['剧情', '家庭']}
+2017-03-09 21:58:07 [scrapy.core.scraper] ERROR: Error processing {'IMDBAddress': ['http://www.imdb.com/title/tt3741834'],
+ 'aliasName': '漫漫回家路(港) / A Long Way Home',
+ 'brief_info': '影片根据畅销书《漫漫寻家路》改编，故事源于作者萨罗·布莱尔利的一段真实经历。五岁时萨罗在印度的火车上不小心与家人走散，他在加尔各答的街头流浪了几个星期，之后被送进一所孤儿院，并被澳大利亚的一对夫妇收养。25年后，他开始凭借隐约的记忆，用谷歌地球去寻找过去的家。',
+ 'director': ['加斯·戴维斯'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2333848819.jpg'],
+ 'initialReleaseDate': ['2017-03(中国大陆)',
+                        '2016-09-10(多伦多电影节)',
+                        '2017-01-19(澳大利亚)'],
+ 'language': '英语 / 孟加拉语 / 印地语',
+ 'lead_actor': ['戴夫·帕特尔',
+                '妮可·基德曼',
+                '鲁妮·玛拉',
+                '大卫·文翰',
+                '纳瓦祖丁·席迪圭',
+                '坦妮什塔·恰特洁',
+                '迪普提·纳瓦尔',
+                '马尼克·古纳拉塔尼',
+                '本杰明·里格比',
+                '萨罗·布赖尔利',
+                '桑尼·帕沃'],
+ 'name': '雄狮',
+ 'offcialSite': ['http://lionmovie.com'],
+ 'productAddress': '澳大利亚 / 美国 / 英国',
+ 'runtime': ['118分钟'],
+ 'score': ['7.3'],
+ 'scriptwriter': '萨罗·布赖尔利/卢克·戴维斯',
+ 'type': ['剧情']}
+Traceback (most recent call last):
+  File "c:\users\lion\python\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\Lion\myscrapy\douban_mivie\douban_mivie\pipelines.py", line 23, in process_item
+    self.download_image(item['img'], filepath)
+  File "C:\Users\Lion\myscrapy\douban_mivie\douban_mivie\pipelines.py", line 34, in download_image
+    f.write(request.urlopen(url).read())
+  File "c:\users\lion\python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "c:\users\lion\python\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "c:\users\lion\python\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "c:\users\lion\python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "c:\users\lion\python\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "c:\users\lion\python\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "c:\users\lion\python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "c:\users\lion\python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "c:\users\lion\python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "c:\users\lion\python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "c:\users\lion\python\lib\ssl.py", line 1002, in recv_into
+    return self.read(nbytes, buffer)
+  File "c:\users\lion\python\lib\ssl.py", line 865, in read
+    return self._sslobj.read(len, buffer)
+  File "c:\users\lion\python\lib\ssl.py", line 625, in read
+    v = self._sslobj.read(len, buffer)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+2017-03-09 21:58:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/25983044/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt2513074'],
+ 'aliasName': '半场无战事 / 比利·林恩漫长的中场休息 / 比利·林漫长的中场行走 / 中场休息',
+ 'brief_info': '伊拉克战争时期，来自美国德州的19岁技术兵比利·林恩（乔·阿尔文 Joe Alwyn '
+               '饰）因为一段偶然拍摄的视频而家喻户晓。那是一次规模不大却激烈非常的遭遇战，战斗中林恩所在的B班班长（范·迪塞尔 Vin '
+               'Diesel '
+               '饰）遭到当地武装分子的伏击和劫持，而林恩为了营救班长不惜铤而走险冲锋陷阵。视频公布于世让他成为全美民众所崇拜的英雄，然而却鲜有人理解他和战友们所经历的一切。为了安葬班长，B班得到了短暂的休假，因此他们得以受邀参加一场在德州举行的橄榄球比赛。林恩的姐姐因某事件深感愧疚，她希望弟弟能借此机缘回归普通生活。而周围的经纪人、球迷、大老板、普通民众则对战争、卫国、士兵有着各种各样想当然的理解。球场上的庆典盛大开幕，林恩和战友们的心却愈加沉重与焦躁……                                                                    \u3000\u3000'
+               '本片根据作家本·方丹（Ben Fountain）的同名小说改编。',
+ 'director': ['李安'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2391542403.jpg'],
+ 'initialReleaseDate': ['2016-11-11(美国/中国大陆)', '2016-10-15(纽约电影节)'],
+ 'language': '英语',
+ 'lead_actor': ['乔·阿尔文',
+                '加内特·赫德兰',
+                '克里斯汀·斯图尔特',
+                '范·迪塞尔',
+                '李淳',
+                '麦肯兹·利',
+                '史蒂夫·马丁',
+                '克里斯·塔克',
+                '本·普拉特',
+                '阿图罗·卡斯特罗',
+                '亚斯特罗',
+                '博·纳普',
+                '伊斯梅尔·克鲁兹·科尔多瓦',
+                '巴尼·哈里斯',
+                '布鲁斯·麦金农'],
+ 'name': '比利·林恩的中场战事',
+ 'offcialSite': ['http://www.imdb.com/title/tt2513074'],
+ 'productAddress': '美国 / 英国 / 中国大陆',
+ 'runtime': ['110分钟(中国大陆)'],
+ 'score': ['8.5'],
+ 'scriptwriter': '让-克里斯托弗·卡斯特里/本·方丹',
+ 'type': ['剧情', '战争']}
+2017-03-09 21:58:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26325320/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt2119532'],
+ 'aliasName': '钢锯岭 / 钢铁英雄(台) / The Conscientious Objector',
+ 'brief_info': '1945年，第二次世界大战接近尾声，作为邪恶轴心重要成员的日本，其嚣张态势已成强弩之末。是年，决定战局走向的冲绳岛战役拉开序幕，成千上万斗志昂扬的美国大兵被派往冲绳，等待他们的则是敌军重兵防守、凶险异常的钢锯岭。在这群人中间，却有一个不愿拿起武器的军医。他名叫戴斯蒙德·道斯（安德鲁·加菲尔德 '
+               'Andrew Garfield '
+               '饰），来自美国的弗吉尼亚。太平洋爆发之际，瘦弱的戴斯蒙德志愿成为救死扶伤的军医而应征入伍。可因童年和家庭的原因，他始终不愿拿起枪支操练，为此宁愿背上拒服兵役的罪名被送上军事法庭。几经周折，戴斯蒙德最终和战友来到了钢锯岭。枪林弹雨，转瞬之间无数人应声倒地。在信仰和信念的支持下，戴斯蒙德仅凭一己之力拯救了数十条濒死的生命……                                                                    \u3000\u3000'
+               '本片根据真人真事改编。',
+ 'director': ['梅尔·吉布森'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2397337958.jpg'],
+ 'initialReleaseDate': ['2016-12-08(中国大陆)', '2016-11-04(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['安德鲁·加菲尔德',
+                '萨姆·沃辛顿',
+                '文斯·沃恩',
+                '雨果·维文',
+                '卢克·布雷西',
+                '泰莉莎·帕尔墨',
+                '瑞切尔·格里菲斯',
+                '纳撒尼尔·布佐尼克',
+                '理查德·劳斯伯格',
+                '马特·纳夫莱',
+                '费拉斯·迪拉尼',
+                '瑞安·柯尔',
+                '卢克·佩格勒'],
+ 'name': '血战钢锯岭',
+ 'offcialSite': ['http://www.hacksawridge.movie/'],
+ 'productAddress': '美国 / 澳大利亚',
+ 'runtime': ['139分钟(中国大陆)'],
+ 'score': ['8.7'],
+ 'scriptwriter': '安德鲁·奈特/罗伯特·申坎',
+ 'type': ['剧情', '动作', '传记', '历史', '战争']}
+2017-03-09 21:58:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26788943/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:58:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/26843352/?tag=%E7%83%AD%E9%97%A8&from=gaia> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:58:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/24751763/?tag=%E7%83%AD%E9%97%A8&from=gaia_video> (referer: https://movie.douban.com/explore?_escaped_fragment_=type%3Dmovie%26tag%3D%25E7%2583%25AD%25E9%2597%25A8%26sort%3Drecommend%26page_limit%3D20%26page_start%3D0)
+2017-03-09 21:58:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/25978126/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt3640424'],
+ 'aliasName': '同盟鹣鲽(台) / 伴谍同盟(港) / 同盟 / 五秒钟的沉默 / 盟军谍影 / Five Seconds of '
+              'Silence',
+ 'brief_info': '1942年，卡萨布兰卡。盟军反情报特工马克斯·瓦坦（布拉德·皮特 Brad Pitt '
+               '饰）拿取了在法国维希政府卧底玛丽安（玛丽昂·歌迪亚 Marion Cotillard '
+               '饰）的法国抵抗运动间谍丈夫的身份。他发现玛丽安在伦敦的秘密，而且发现他俩之间的关系变成了假戏真做。在完成一个危险的北非任务之后，他们决定金盘洗手，结婚以后在伦敦开始了清净的生活。但是马克斯慢慢发现他的妻子可能是纳粹间谍，他需要找出她真正的身份。',
+ 'director': ['罗伯特·泽米吉斯'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2402069220.jpg'],
+ 'initialReleaseDate': ['2016-11-30(中国大陆)', '2016-11-23(美国)'],
+ 'language': '英语 / 法语',
+ 'lead_actor': ['布拉德·皮特',
+                '玛丽昂·歌迪亚',
+                '马修·古迪',
+                '丽兹·卡潘',
+                '夏洛特·霍普',
+                '拉菲·卡西迪',
+                '杰瑞德·哈里斯',
+                '克里斯蒂安·鲁贝克',
+                '丹尼尔·贝茨',
+                '安格斯·肯尼迪',
+                '贾森·马修森',
+                '大卫·邦纳维尔'],
+ 'name': '间谍同盟',
+ 'offcialSite': ['http://www.alliedmovie.com'],
+ 'productAddress': '美国 / 英国',
+ 'runtime': ['124分钟'],
+ 'score': ['6.9'],
+ 'scriptwriter': '斯蒂文·奈特',
+ 'type': ['剧情', '动作', '爱情', '战争']}
+2017-03-09 21:58:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26879060/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt6398666'],
+ 'aliasName': 'Some Like It Hot',
+ 'brief_info': '好友突然离世，令生活安稳的肖瀚（肖央饰演）开始唏嘘人生苦短。柳下惠自居的他，因为偶然邂逅性感美女模特yoyo（克拉拉饰演），重新找回了心跳的感觉，遂欲借工作之便亲近女神，再尝试一遍初恋的刺激。然而，肖瀚的几次示好，不是因伴侣沈红（代乐乐饰演）的警觉而作罢，就是因顶头上司马丽莲（闫妮饰演）的误会而被迫中断，各种阴差阳错笑料不断。洋相频出的肖瀚左右为难又心有不甘，只好求助于身边的好兄弟艾木（艾伦饰演）、汤怀（乔杉饰演）、刘磊（小沈阳饰演），以及“神助攻”同事常剑（常远饰演），几人结成“情圣五贱客”花式开撩。在他们的出谋划策之下，肖瀚经历了一些列令人啼笑皆非的惊险囧事……',
+ 'director': ['宋晓飞 ', '董旭'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2409022364.jpg'],
+ 'initialReleaseDate': ['2016-12-30(中国大陆)'],
+ 'language': '汉语普通话',
+ 'lead_actor': ['肖央', '闫妮', '小沈阳', '乔杉', '艾伦', '代乐乐', '常远', '李成敏', '车晓', '田雨'],
+ 'name': '情圣',
+ 'offcialSite': ['http://www.imdb.com/title/tt6398666'],
+ 'productAddress': '中国大陆',
+ 'runtime': ['113分钟'],
+ 'score': ['6.1'],
+ 'scriptwriter': '李潇/于淼',
+ 'type': ['喜剧']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/21324900/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt2543164'],
+ 'aliasName': '你一生的故事 / 天煞异降(港) / 异星入境(台) / 抵达 / 抵达者 / Story of Your Life',
+ 'brief_info': '地球的上空突然出现了十二架贝壳状的不明飞行物，悬浮在十二个不同的国家的上空，外星人向人类发出了讯号，但人类却并不能够解读。美国军方找到了语言学家路易斯（艾米·亚当斯 '
+               'Amy Adams 饰）和物理学家伊恩（杰瑞米·雷纳 Jeremy Renner '
+               '饰），希望两人能够合作破解外星人的语言之谜。                                                                    \u3000\u3000'
+               '经过数次的接触，路易斯发现外星人使用了一种极为特殊的圆环状的文字，并逐渐了解了其中的奥妙。由于一直无法确定外星人来到地球的真正目的，中国、俄罗斯等四国决定对外星人发起进攻，美方亦决定放弃研究将全部人员撤离，在这个节骨眼上，路易斯终于明白了外星人的意图，利用外星人赋予她的特殊的“武器”，路易斯以一人之力改变了未来。',
+ 'director': ['丹尼斯·维伦纽瓦'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411622421.jpg'],
+ 'initialReleaseDate': ['2017-01-20(中国大陆)',
+                        '2016-09-01(威尼斯电影节)',
+                        '2016-11-11(美国)'],
+ 'language': '英语 / 汉语普通话',
+ 'lead_actor': ['艾米·亚当斯',
+                '杰瑞米·雷纳',
+                '福里斯特·惠特克',
+                '迈克尔·斯图巴',
+                '马志',
+                '马克·奥布莱恩',
+                '乔·柯布登 ',
+                '派特·凯利',
+                '娜塔莉·希波蒂',
+                '袁罗素',
+                '克里斯蒂安· 杰达',
+                '朱利安·凯西'],
+ 'name': '降临',
+ 'offcialSite': ['http://www.arrivalmovie.com'],
+ 'productAddress': '美国',
+ 'runtime': ['116分钟'],
+ 'score': ['7.8'],
+ 'scriptwriter': '埃里克·海瑟尔/特德·姜',
+ 'type': ['剧情', '科幻']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26679552/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt5186714'],
+ 'aliasName': '新居风暴(台) / Forushande / Seller / The Salesman',
+ 'brief_info': '尹麦德（沙哈布·侯赛尼 Shahab Hosseini 饰）是学校里教授文学的老师，同时，他和妻子蕾娜（塔兰涅·阿里多斯蒂 '
+               'Taraneh Alidoosti '
+               '饰）一起在剧团里表演话剧，夫妻两人感情十分深厚。某日，两人所住的房子成为了危楼，随时都有倒塌的危险，无奈之下，尹麦德和蕾娜只得临时找了另一个住所，匆匆入住。                                                                    \u3000\u3000'
+               '某日，蕾娜提前回到家中，不想遭到了陌生男子的袭击晕倒在浴室之中，愤怒的尹麦德根据罪犯遗漏的车钥匙找到了一辆小货车，一路尾随至面包店。最终，尹麦德找到了罪魁祸首巴巴克（巴巴克·卡里米 '
+               'Babak Karimi '
+               '饰），却发现他当时亦只是一念之差走错了路，并且对自己的所作所为充满了愧疚。尹麦德要求巴巴克在自己的妻子和儿子面前坦白罪行，没想到却酿成了所有人都无法承受的惨痛后果。',
+ 'director': ['阿斯哈·法哈蒂'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2378401788.jpg'],
+ 'initialReleaseDate': ['2016-05-21(戛纳电影节)', '2016-08-17(法国)'],
+ 'language': '波斯语',
+ 'lead_actor': ['沙哈布·侯赛尼', '塔兰涅·阿里多斯蒂', '巴巴克·卡里米', '法里德·萨贾蒂·侯赛尼', '米娜·沙达蒂'],
+ 'name': '推销员',
+ 'offcialSite': ['http://www.imdb.com/title/tt5186714'],
+ 'productAddress': '伊朗 / 法国',
+ 'runtime': ['125分钟'],
+ 'score': ['7.7'],
+ 'scriptwriter': '阿斯哈·法哈蒂',
+ 'type': ['剧情', '悬疑']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26696879/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt6605830'],
+ 'aliasName': 'The Insanity',
+ 'brief_info': '七个互不认识的正常人莫名奇妙被关进了疯人院，为了逃脱这七个人费尽了心思：能把“死人说活”的话唠律师马睿（王自健 '
+               '饰）、出口成章但性格懦弱的历史老师萧乃恩（金士杰 饰）、“混不吝”的记者李正（周一围 '
+               '饰）、一心只想回家见女儿的兽医韩沐山（刘亮佐 饰）、脾气暴躁的出租司机杨猛（李虹辰 饰）、貌美圆滑的公关莉莉（莫小棋 '
+               '饰），外加一个失忆了的奇怪女人安希（万茜 '
+               '饰）。这七个人想方设法证明自己不是疯子，为了逃出疯人院做出了一系列令人捧腹大笑的荒唐事，然而这一切都被疯人院里监控摄像记录下来……',
+ 'director': ['饶晓志'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2408394301.jpg'],
+ 'initialReleaseDate': ['2016-12-30(中国大陆)'],
+ 'language': '汉语普通话',
+ 'lead_actor': ['万茜', '周一围', '王自健', '金士杰', '李虹辰', '莫小棋', '刘亮佐', '曹卫宇'],
+ 'name': '你好，疯子！',
+ 'offcialSite': ['http://www.imdb.com/title/tt6605830'],
+ 'productAddress': '中国大陆',
+ 'runtime': ['107分钟'],
+ 'score': ['7.0'],
+ 'scriptwriter': '饶晓志/雷志龙',
+ 'type': ['剧情', '喜剧', '悬疑']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26648249/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt4975722'],
+ 'aliasName': '月亮喜欢蓝(港) / 月光下的蓝色男孩(台) / 月光人生 / 月光',
+ 'brief_info': '奇伦（艾什顿·桑德斯 Ashton Sanders 饰）的母亲宝拉（娜奥米·哈里斯 Naomie Harris '
+               '饰）吸毒成瘾根本无心照顾孩子，奇伦从小在孤独中长大，因为过于瘦小的身材而时常遭到周围人的欺侮和作弄。一次偶然中，奇伦结识了毒贩胡安（马赫沙拉·阿里 '
+               'Maher shala Ali 饰），从此，胡安和其女友特蕾莎（加奈儿·梦奈 Janelle Monae '
+               '饰）的住处成为了奇伦的第二个家。                                                                    \u3000\u3000'
+               '凯文（贾雷尔·杰罗姆 Jharrel Jerome '
+               '饰）是奇伦唯一的朋友，随着时间的推移，两人之间的感情渐渐超越了友谊。然而，为了隐藏自己的性取向，凯文不得不在同伴的怂恿下对奇伦大打出手，之后，两人再也没有见过面。一晃眼多年过去，奇伦忽然接到了凯文打来的电话，两人终于决定正视各自心中真正的感情。',
+ 'director': ['巴里·詹金斯'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2373594741.jpg'],
+ 'initialReleaseDate': ['2016-09-02(特柳赖德电影节)',
+                        '2016-09-10(多伦多电影节)',
+                        '2016-10-21(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['崔凡特·罗兹',
+                '安德烈·霍兰',
+                '马赫沙拉·阿里',
+                '娜奥米·哈里斯',
+                '加奈儿·梦奈',
+                '艾什顿·桑德斯',
+                '贾雷尔·杰罗姆',
+                '艾利克斯·希伯特',
+                '杰登·派纳',
+                '段·桑德森',
+                '艾德森·吉恩',
+                '斯蒂芬·布隆'],
+ 'name': '月光男孩',
+ 'offcialSite': ['http://moonlight.movie/'],
+ 'productAddress': '美国',
+ 'runtime': ['111分钟'],
+ 'score': ['7.2'],
+ 'scriptwriter': '巴里·詹金斯/塔瑞尔·麦卡尼',
+ 'type': ['剧情', '同性']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26939209/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': [],
+ 'aliasName': '',
+ 'brief_info': '拥有不死之身的阴阳眼女孩小安白天经营纸扎店，晚上折纸烧给游魂野鬼帮助他们了却心愿投胎。百鬼缠身的小安，送走了无数野鬼，却常年被厉鬼全德喜纠缠。为了送走全德喜，小安心生一计，想把意外结识的单纯男孩苏晋送给全德喜，以了却其心愿。在送走厉鬼全德喜的过程中，渐渐抽丝剥茧出一件跨越百年的爱恨纠葛，同时也找出了她自己的身世之谜。到底小安为什么会不生不灭不死？到底全德喜为什么会一直纠缠小安？最后小安、全德喜和苏晋三人的命运如何？',
+ 'director': ['朱滢心'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2407015040.jpg'],
+ 'initialReleaseDate': ['2016-12-23(中国大陆)'],
+ 'language': '汉语普通话',
+ 'lead_actor': ['葛铮', '爱菲儿', '裘斯'],
+ 'name': '灵魂纸扎店',
+ 'offcialSite': [],
+ 'productAddress': '中国大陆',
+ 'runtime': ['65分钟'],
+ 'score': ['6.7'],
+ 'scriptwriter': '朱滢心',
+ 'type': ['爱情', '悬疑', '惊悚']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26616145/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt5606538'],
+ 'aliasName': '机密同盟(台) / 秘密任务(港) / Confidential Assignment',
+ 'brief_info': '朝鲜一座国家秘密工厂对美元的仿制度超过了百分之九十九，朝鲜特种部队首长车奇成，在之前的行动失去了妻子，因而对国家产生不满，决定带领一众手下脱北出逃。并且在走之前要抢走工厂最宝贵的伪钞模板。车奇正的手下，一个行动小组的组长林哲令（玄彬饰）率领自己的组员，与车奇正一伙发生了激烈交火。最后除林哲令一人幸存，其余工人和保安人员全部被杀害，其中就包括林哲令的妻子。                                                                            \u3000\u3000'
+               '朝鲜军政高层下令必须将伪钞模板追回，而林哲令也下定决心天涯海角也要追杀车奇正为妻报仇。朝鲜情报部门得到情报，车奇正出逃之后，辗转中国几座城市最终逃到了韩国首尔。朝鲜军界高层借南北高层会谈之际，以随从身份带林哲令一同前往首尔，并通知韩国警方展开一次共助行动，一起抓捕车奇正。韩国警方对车奇正的真实身份和朝鲜官方的实际目的一无所知，于是派出打酱油的刑警姜镇泰(柳海真饰）协助林哲令，实则敷衍和监视朝方行动。...',
+ 'director': ['金成勋'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2403798015.jpg'],
+ 'initialReleaseDate': ['2017-01-18(韩国)'],
+ 'language': '韩语',
+ 'lead_actor': ['玄彬', '柳海真', '金柱赫', '张荣男', '李东辉', '林允儿', '李伊景'],
+ 'name': '共助',
+ 'offcialSite': ['http://www.imdb.com/title/tt5606538'],
+ 'productAddress': '韩国',
+ 'runtime': ['125分钟'],
+ 'score': ['6.7'],
+ 'scriptwriter': '尹贤豪',
+ 'type': ['动作']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26788943/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt5706292'],
+ 'aliasName': '暗金丑岛君电影版3 / 暗金丑岛君3：枷锁篇(台)',
+ 'brief_info': '山田孝之 主演，真鍋昌平 漫畫改編，《暗金丑島君》， '
+               'TBS確定7月推出「Season3」！並在秋天連續上映劇場版「暗金丑島君 Part3」與「暗金丑島君 The Final」。',
+ 'director': ['山口雅俊'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2370195381.jpg'],
+ 'initialReleaseDate': ['2016-09-22(日本)'],
+ 'language': '日语',
+ 'lead_actor': ['山田孝之',
+                '绫野刚',
+                '本乡奏多',
+                '白石麻衣',
+                '笕美和子',
+                '最上摩卡',
+                '槙田雄司',
+                '山田裕贵',
+                '前野朋哉',
+                '矢野圣人',
+                '儿岛一哉',
+                '樱子',
+                '岸井雪乃',
+                '水泽绅吾',
+                '山下容莉枝',
+                '大杉涟',
+                '藤森慎吾',
+                '浜野谦太',
+                '高桥玛莉润',
+                '崎本大海',
+                '矢部享佑'],
+ 'name': '暗金丑岛君3',
+ 'offcialSite': ['http://ymkn-ushijima-movie.com'],
+ 'productAddress': '日本',
+ 'runtime': ['131分钟'],
+ 'score': ['7.4'],
+ 'scriptwriter': '福间正浩/山口雅俊',
+ 'type': ['喜剧']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/26843352/?tag=%E7%83%AD%E9%97%A8&from=gaia>
+{'IMDBAddress': ['http://www.imdb.com/title/tt5710514'],
+ 'aliasName': '',
+ 'brief_info': '故事的开始对于康复中心护士助理露丝来说是非常糟糕的一天。在遇到了一连串的奇葩倒霉事之后，露丝回到家中，发现家被歹徒破门而入洗劫了一番。正在服用抗抑郁药物的露丝，到了濒临崩溃的边缘，在闺蜜的安慰中勉强坚持了一夜。清晨从闺蜜家回到家时正好抓到每天让狗狗在自己院子方便的遛狗人托尼（伊利亚·伍德饰）。一番理论后还是不了了之。正在露丝郁闷之时，自己的手机追踪到了自己丢失的笔记本电脑。警察却以人手不足为由，拒绝出警。无奈之下，露丝只好向托尼求助，托尼决定带上流星锤，忍者飞镖和露丝一同前往。本来一桩小小的入室盗窃案，渐渐失控，发展到血流成河的暴力事件。                                                                    \u3000\u3000'
+               '本片获得今年2月份圣丹斯电影节评审团大奖。@秀山鲤鱼',
+ 'director': ['梅肯·布莱尔'],
+ 'img': ['https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2434272900.jpg'],
+ 'initialReleaseDate': ['2017-01-29(圣丹斯电影节)', '2017-02-24(美国)'],
+ 'language': '英语',
+ 'lead_actor': ['梅兰妮·林斯基',
+                '伊利亚·伍德',
+                '大卫·佑',
+                '简·拉维',
+                '德文·格拉耶',
+                '加里·安东尼·威廉斯',
+                '李·埃迪',
+                '德里克·梅耶斯',
+                '米歇尔·莫雷诺',
+                '梅肯·布莱尔',
+                '杰布·贝里耶',
+                '拉娜·迪特里克',
+                '麦斯威尔·汉密尔顿',
+                'J·J·格林',
+                '泰勒·图内什',
+                '奥德丽·沃克',
+                '克里斯·杜贝克'],
+ 'name': '无处为家',
+ 'offcialSite': ['http://www.imdb.com/title/tt5710514'],
+ 'productAddress': '美国',
+ 'runtime': ['93分钟'],
+ 'score': ['7.1'],
+ 'scriptwriter': '梅肯·布莱尔',
+ 'type': ['惊悚', '犯罪']}
+2017-03-09 21:58:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/24751763/?tag=%E7%83%AD%E9%97%A8&from=gaia_video>
+{'IMDBAddress': ['http://www.imdb.com/title/tt4623812'],
+ 'aliasName': '旧社会 / 浮生如梦 / The Wasted Times',
+ 'brief_info': '一出上世纪30年代旧上海的群像戏——叱咤风云的帮派大佬，不甘寂寞的交际花，说着地道上海话的日本妹夫，只收交通费的杀手，被冷落却忠诚的姨太太，外表光鲜的电影皇后，深宅大院里深不可测的管家，偶尔偷腥的电影皇帝，荷尔蒙满溢大脑的帮派小弟，一心想要破处的处男，善良的妓女，随波逐流的明星丈夫，投靠日本人的帮派二哥，日理万机却抽空恋爱的戴先生。                                                                    \u3000\u3000'
+               '战争之下，繁华落尽。帮派大佬逃亡香港，交际花不知所踪，日本妹夫死在上海，电影皇后被丈夫抛弃，处男遇上妓女，姨太太杀死二哥。战争惨烈，战争终于结束。',
+ 'director': ['程耳'],
+ 'img': ['https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2404553168.jpg'],
+ 'initialReleaseDate': ['2016-12-16(中国大陆)'],
+ 'language': '汉语普通话 / 上海话 / 日语 / 英语',
+ 'lead_actor': ['葛优',
+                '章子怡',
+                '浅野忠信',
+                '杜淳',
+                '钟欣潼',
+                '倪大红',
+                '赵宝刚',
+                '袁泉',
+                '闫妮',
+                '韩庚',
+                '霍思燕',
+                '杜江',
+                '王传君',
+                '钟汉良',
+                '马晓伟',
+                '吕行',
+                '乔笑笑',
+                '刘天阳',
+                '赵海涛',
+                '叶禾',
+                '周敬峰',
+                '杨露璐',
+                '松峰莉璃',
+                '松浦敬之',
+                '平田康之',
+                '张晓龙',
+                '郭晓小',
+                '小黑'],
+ 'name': '罗曼蒂克消亡史',
+ 'offcialSite': ['http://www.imdb.com/title/tt4623812'],
+ 'productAddress': '中国大陆 / 香港',
+ 'runtime': ['125分钟'],
+ 'score': ['7.7'],
+ 'scriptwriter': '程耳',
+ 'type': ['剧情', '动作', '悬疑']}
+2017-03-09 21:58:08 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-03-09 21:58:08 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10684,
+ 'downloader/request_count': 22,
+ 'downloader/request_method_count/GET': 22,
+ 'downloader/response_bytes': 403849,
+ 'downloader/response_count': 22,
+ 'downloader/response_status_count/200': 22,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 3, 9, 13, 58, 8, 923852),
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 48,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 22,
+ 'scheduler/dequeued': 21,
+ 'scheduler/dequeued/memory': 21,
+ 'scheduler/enqueued': 21,
+ 'scheduler/enqueued/memory': 21,
+ 'start_time': datetime.datetime(2017, 3, 9, 13, 57, 26, 255237)}
+2017-03-09 21:58:08 [scrapy.core.engine] INFO: Spider closed (finished)

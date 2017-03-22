@@ -1,0 +1,63 @@
+1.item 模块
+作用：
+1）从非结构化的数据源提取结构化的数据
+2）保存爬取的结构化数据
+项目实践：
+1）这里定义了15个信息:
+    img = scrapy.Field()                        #保存电影图片的url地址
+    name = scrapy.Field()                       #保存电影的名称信息
+    score = scrapy.Field()                      #保存电影评分信息
+    director = scrapy.Field()                   #保存导演人员信息
+    scriptwriter = scrapy.Field()               #保存编剧人员信息
+    lead_actor = scrapy.Field()                 #保存主演人员信息
+    type = scrapy.Field()                       #保存电影类型信息
+    offcialSite = scrapy.Field()                #保存电影的官方网站信息
+    productAddress = scrapy.Field()             #保存制片国家/区域信息
+    language = scrapy.Field()                   #保存语言信息
+    initialReleaseDate = scrapy.Field()         #保存上映时间信息
+    runtime = scrapy.Field()                    #保存片长信息
+    aliasName = scrapy.Field()                  #保存影片别名信息
+    IMDBAddress = scrapy.Field()                #保存IMDb地址信息
+    brief_info = scrapy.Field()                 #保存影片简介信息
+
+2.spider 模块
+作用：
+1）爬虫动作的主要体现，包括爬去的网页地址，如何提取结构化数据，以及返回爬取得信息
+项目实践：
+1）通过selenium 动态加载js代码
+    这次第一个比较重要的地方是豆瓣电影的那部分信息是通过js动态生成的，所以原生的response信息不能用，需要通过selenium去模拟浏览器加载js（这部分当然也
+    包括selenium的安装学习了）
+2）xpath 选择器的使用
+    通过xpath选择器在html源代码中提取信息需要一定的技巧，这部分也是爬虫的重点和难点
+3）多级页面爬取
+    通过传递将item传递给meta参数，手动调用scrapy.http.Request 实现多级页面的抓取
+4）yield 迭代器的理解
+    一个带有yield的函数就是一个generator，他和不同函数不同，不会执行任何代码，直到对其调用next()(在for循环会自动调用next函数),
+    虽然执行流程按照函数的流程执行，但是每次执行到yield语句就中断，并返回一个迭代值，下次继续从yield语句执行。
+
+3.pipeline 模块
+作用：
+1）当item被spider数据抓取保存之后，会被传递到pipeline，在这部分可以实现数据的清理，验证，保存等操作
+项目实践：
+1）这次主要就是将item的信息抓取然后简单写到文件
+
+4.setting 配置
+作用：
+1）对全局scrapy的环境配置
+项目实践：
+1）user_agent
+    设置 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'，避免5xx或者4xx的错误
+2）开启pipeline
+    ITEM_PIPELINES = {
+    'douban_mivie.pipelines.DoubanMiviePipeline': 300,
+    }
+3）设置日志
+    开启日志并且保存到log.txt，日志级别为DEBUG
+    LOG_ENABLED = True
+    LOG_ENCODING = 'utf-8'
+    LOG_FILE = './log.txt'
+    LOG_LEVEL = 'DEBUG'
+
+总结&思考：
+1.scrapy的框架使用比较简单，功能也比较强大，集成了很多知识点
+2.争取通过读scrapy源码，自己再将scrapy更详细的功能深入了解
