@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery图片轮替效果</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jquery-rotate.css">
+	<script type="text/javascript" src="./public/js/jquery-3.1.1.js"></script>
+</head>
+<body>
+<div class="body_frame">
+	<div class="left_lt">
+		<img src="./img/next.png">
+
+	</div>
+	<div class="big_img">
+		<ul>
+			<li><img src="./img/qinshi/1.jpeg" ></li>
+			<li><img src="./img/qinshi/2.jpeg"></li>
+			<li><img src="./img/qinshi/3.jpg"></li>
+			<li><img src="./img/qinshi/4.png"></li>
+			<li><img src="./img/qinshi/5.jpeg"></li>
+			<li><img src="./img/qinshi/6.jpg"></li>
+			<li><img src="./img/qinshi/7.jpg"></li>
+			
+		</ul>
+	</div>
+	<div class="right_gt">
+		<img src="./img/prev.png">
+	</div>
+	<div class="button">
+		
+	</div>
+</div>
+
+</body>
+<script type="text/javascript">
+$(function(){
+	$("ul li:first").show();
+	// 生成图片的序列索引
+	img_count = $("ul li").length;
+	for(i=1;i<img_count+1;i++){
+		$(".button").append("<span>"+i+"</span>");
+	}
+	//1.手动切换点击图片索引图片
+	default_img=1
+	$(".button span").click(function() {
+		default_img=$(this).text();
+		$("ul li").hide();
+		$("ul li").eq(default_img-1).show();
+		$(".button span").removeClass("span_click");
+		$(".button span").eq(default_img-1).addClass("span_click");
+	});
+	//2.手动点击图片的左右括号选取图片并且更改索引的颜色
+	//1)更改悬浮的左右指标颜色透明度
+	$(".right_gt img").mouseover(function(){
+		$(".right_gt img").animate({"opacity":1},"fast");
+	}).mouseout(function(){
+		$(".right_gt img").animate({"opacity":0.2},"fast");
+	});
+
+	$(".left_lt img").mouseover(function(){
+		$(".left_lt img").animate({"opacity":1},"fast");
+	}).mouseout(function(){
+		$(".left_lt img").animate({"opacity":0.2},"fast");
+	});
+	//2)点击左右指标更改图片
+	$(".right_gt img").click(prev);
+	$(".left_lt img").click(next);
+	function next(){
+		if(default_img==img_count){
+			default_img=1;
+		}else{
+			default_img++;
+		}
+		$("ul li").hide();
+		$("ul li").eq(default_img-1).show();
+		$(".button span").removeClass("span_click");
+		$(".button span").eq(default_img-1).addClass("span_click");
+		
+
+	}
+	function prev(){
+		if(default_img==1){
+			default_img=img_count;
+		}else{
+			default_img--;
+		}
+		$("ul li").hide();
+		$("ul li").eq(default_img-1).show();
+		$(".button span").removeClass("span_click");
+		$(".button span").eq(default_img-1).addClass("span_click");
+		
+	}
+   
+	//自动每5s播放一张图片
+	function auto(){
+		$(".button span").eq(default_img-1).trigger("click");
+		if(default_img==img_count){
+			default_img=1;
+		}else{
+			default_img++;
+		}
+		
+	}
+	//这里通过鼠标的事件来定义了鼠标悬浮的两种状态
+	int1=setInterval(auto,5000);
+	$("ul li").mouseover(function(){
+		clearInterval(int1);
+	}).mouseout(function(){
+		int1=setInterval(auto,5000);
+	})
+});
+	
+</script>
+</html>

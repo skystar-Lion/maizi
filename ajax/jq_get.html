@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js\jquery-3.1.1.js"></script>
+</head>
+<body>
+    <h3>功能</h3>
+    <input type="submit" value="jquery-ajax请求" onclick="SendRequest();"/>
+
+    <script type="text/javascript" charset="utf-8">
+        var xhr = null;
+
+        function SendRequest() {
+            $.get({
+                url: 'data.json',
+                dataType: 'text',
+                success: function(data, textstatus){
+                    console.log(data);
+                    console.log(textstatus);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

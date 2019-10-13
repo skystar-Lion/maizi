@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <h3>功能</h3>
+    <input type="submit" value="ajax请求" onclick="SendRequest();"/>
+
+    <h3>返回结果</h3>
+    <div id="result"></div>
+
+    <script type="text/javascript">
+        var xhr = null;
+
+        function SendRequest() {
+            xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = StatusChange;
+            xhr.open("POST", "data.json", true);
+            xhr.setRequestHeader('Content-Type', 'text/html;charset=utf-8')
+            xhr.send('username=aaa;password=bbb');
+        }
+
+        function StatusChange() {
+            alert(xhr.readyState);
+            if (xhr.readyState == 4) {
+                alert('in status');
+                alert(xhr.responseText);
+                alert(xhr.statusText);
+                document.getElementById('result').innerHTML = xhr.responseText;
+            }
+        }
+    </script>
+</body>
+</html>

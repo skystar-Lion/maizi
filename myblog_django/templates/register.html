@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册用户</title>
+    <style type="text/css">
+        body {
+            background-color: #d9d9d9;
+        }
+        .register {
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="register">
+        <span>注册用户</span>
+        <form method="post" action="/register/">
+            {% csrf_token %}
+            {{ uf.as_p }}
+            <input type="submit" name="提交">
+        </form>
+    </div>
+</body>
+</html>

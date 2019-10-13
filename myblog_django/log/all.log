@@ -1,0 +1,14 @@
+2017-04-12 18:05:50,174 [Thread-1:42212] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-12 18:05:50,174 [Thread-1:42212] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-12 21:24:31,697 [Thread-5:44096] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-12 21:24:31,698 [Thread-5:44096] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-12 21:41:11,549 [Thread-1:46296] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-12 21:41:11,549 [Thread-1:46296] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-12 23:11:27,245 [Thread-1:39824] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-12 23:11:27,246 [Thread-1:39824] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-13 00:23:34,328 [Thread-1:42048] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-13 00:23:34,328 [Thread-1:42048] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-13 01:05:32,686 [Thread-29:46900] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-13 01:05:32,687 [Thread-29:46900] [blog_log:15] [views:index] [INFO]- /index/
+2017-04-17 16:22:18,093 [Thread-16:6304] [blog_log:14] [views:index] [DEBUG]- request index.html.
+2017-04-17 16:22:18,095 [Thread-16:6304] [blog_log:15] [views:index] [INFO]- /index/

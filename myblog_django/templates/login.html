@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+    <title>登录</title>
+    <style type="text/css">
+        body {
+            background-color: #d9d9d9;
+        }
+        #id1 {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .login a {
+            color: #3d3de8;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <span id="id1">登录页面</span>
+        <form method="post" action="/login/">
+            {% csrf_token %}
+            {{ uf.as_p }}
+            <input type="submit" name="登录">
+            <a href="/register/">注册</a>
+        </form>
+    </div>
+</body>
+</html>

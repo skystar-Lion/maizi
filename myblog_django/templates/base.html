@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LION's博客</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+    <script type="text/javascript" src="../static/js/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="introduce">
+            <h2>LION's 博客</h2>
+        </div>
+        {% if username %}
+            <div class="index_login">
+                <p>Hello,{{ username }}</p>
+                <a href="/logout/">注销</a>
+            </div>
+        {% else %}
+            <div class="index_login">
+                <a href="/login/">登录</a>
+                <a href="/register/">注册</a>
+            </div>
+        {% endif %}
+        
+    </div>
+    <div class="nav">
+        <span id="nav_span"><a href="">首页</a></span>
+        <span id="nav_span"><a href="">BLOG</a></span>
+        <span id="nav_span"><a href="">心情</a></span>
+        <span id="nav_span"><a href="">相册</a></span>
+    </div>
+    <div class="middle">
+        <div class="con_left">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div class="con_right">
+            <div class="info">
+                <p>About Me</p>
+                <img src="../static/img/head.png" width="100px" height="100px">
+                <p>年轻就是还没有把人生搞砸，少年折腾吧</p>
+            </div>
+            {% block con_cateory %}
+            {% endblock %}
+            <div class="friends_link">
+                <p id="fp1">友情链接</p>
+                <p id="fp2"><a href="http://www.dannysite.com/blog/">DANNY SITE</a></p>
+                <p id="fp2"><a href="http://0xffffff.org/">浅墨的部落格</a></p>
+                <p id="fp2"><a href="http://www.liaoxuefeng.com/">廖雪峰的官方网站</a></p>
+                <p id="fp2"><a href="http://www.dannysite.com/blog/">rainmote的个人博客</a></p>
+                <p id="fp2"><a href="http://itbyc.com/">杨雨个人主页</a></p>
+                <p id="fp2"><a href="http://www.duanliang920.com/">段亮个人博客</a></p>
+            </div>
+        </div>
+    </div>   
+    <div class="bottom">
+    <p><i>Designed by xxx ,2017-04-20</i></p>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            if ($(".con_left").height() >= $(".con_right").height()) {
+                $(".middle").height($(".con_left").height() + 50);
+            } else {
+                $(".middle").height($(".con_right").height() + 50);
+            }
+        })
+    </script>
+    </div>
+</body>
+</html>

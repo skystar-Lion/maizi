@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" content="text/html">
+    <link rel="stylesheet" type="text/css" href="../static/css/sea.css">
+    <script type="text/javascript" src="../static/js/jquery-3.1.1.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="img_logo">
+        <img src="../static/img/logo.jpg"><br/>
+    </div>
+    <div class="search">
+        <form action="" method="POST">
+            <input type="text" name="" id="search-text">
+            <input type="button" name="" value="百度一下" id="search-button">
+        </form>
+    </div>
+    <div id="search-list">
+        <div id="sl">
+            <ul id="auto"></ul>
+        </div>     
+    </div>
+    
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    
+    var autocomplete = $('#auto');
+    //最多是显示index个最相关匹配
+    var index_num = 0;
+    //索引[index]元素显示为空
+    var length_num = 0;
+
+    //success处理请求成功返回的数据，生成列表并显示
+    function success(data){
+        console.log(data);
+        $.each(data, function(index,element){
+            console.log(index);
+            console.log(element);
+            $("#auto").css("border-width","1px");
+            $('<li></li>').text(element['fields']['key_word']).appendTo(autocomplete);
+
+            //li元素被鼠标选择或者点击时的事件
+            $("li").hover(function(){
+                $(this).addClass('li_color');
+            },function(){
+                $(this).removeClass('li_color');
+            });
+            $("li").mousedown(function(){
+                $("input#search-text").val($(this).text());
+                $("#auto").empty();
+            });
+        });
+    }
+    
+
+
+    //当输入框有字符输入完成，自动发送post请求，并弹出下拉框
+    $("input#search-text").keydown(function(event){
+        $("#auto").empty();       
+        //$("input#search-text").css("background-color","red");        
+           //获取输入框的值并且发送到服务端
+            $.post({
+                url: 'http://127.0.0.1:8000/ps/',
+                data: {'search-text':$("input#search-text").val()},
+                dataType: 'json',
+                success: success,
+            });
+                
+    });
+
+    
+
+    //如果获取到方向键向下/上，则将下/上一个li元素设置背景颜色，并取消当前li元素css背景颜色属性 
+    $("input#search-text").keyup(function(event){
+        //初始化index_num循环，也保证区域结果不会是负数
+        if (index_num == 0){
+            index_li = 0;
+            index_num = $("li").length;
+            length_num = index_num + 1;
+        }
+        //down
+        if (event.keyCode == 40){
+            $("li").eq(index_li).removeClass('li_color');                           
+            index_li = ++index_num % length_num;
+            console.log(index_li);
+            console.log(index_num);
+            $("li").eq(index_li).addClass('li_color');
+        //up
+        }else if(event.keyCode == 38){
+            $("li").eq(index_li).removeClass('li_color');
+            index_li = --index_num % length_num;    
+            console.log(index_li);
+            console.log(index_num);
+            $("li").eq(index_li).addClass('li_color');
+        }       
+    });
+
+    //当输入框在焦点状态时，自动发送post请求，然后弹出下拉框
+    $("input#search-text").focus(function(){
+        $("#auto").empty();
+        //$("input#search-text").css("background-color","red");        
+       //获取输入框的值并且发送到服务端
+        $.post({
+            url: 'http://127.0.0.1:8000/ps/',
+            data: {'search-text':$("input#search-text").val()},
+            dataType: 'json',
+            success: success,
+        });
+          
+    });
+
+    //当输入框失去焦点，清空下拉框
+    $("input#search-text").blur(function(){
+        //$("input#search-text").css("background-color","");       
+        $("#auto").css("border-width","0px");
+        $("#auto").empty();
+    });
+
+});
+    
+</script>
+</body>
+</html>

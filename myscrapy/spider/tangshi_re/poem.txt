@@ -1,0 +1,491 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Cache-Control" content="no-siteapp" /><meta http-equiv="Cache-Control" content="no-transform " /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="description" content="唐诗三百首栏目收录了包括：草、长恨歌、后宫词、暮江吟、问刘十九、白雪歌送武判官归京、逢入京使、奉和中书舍人贾至早朝大明宫、寄左省杜拾遗等唐诗三百首全集赏析。" />
+<style type="text/css">
+        #guwencont2 a{ width:213px;}
+        #guwencont21 a{ width:213px;}
+        #guwencont22 a{ width:213px;}
+        #guwencont23 a{ width:213px;}
+        #guwencont24 a{ width:213px;}
+        #guwencont25 a{ width:213px;}
+        #guwencont26 a{ width:213px;}
+    </style>
+<link href="/CSS/Skin.css" rel="stylesheet" type="text/css" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Imgs/log114.jpg" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Imgs/log72.jpg" /><link rel="apple-touch-icon-precomposed" sizes="57x57" href="/Imgs/log57.jpg" />
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?04660099568f561a75456483228a9516";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<title>
+唐诗三百首全集赏析_古诗文网
+</title></head>
+<body onclick="closeshowBos()">
+<div class="main1">
+<div class="left">
+<a href="/"><img src="/Imgs/www.gushiwen.org.jpg" width="260" height="50" alt="古诗文网" /></a>
+</div>
+<div class="right">
+<div class="rtop">
+</div>
+<div class="rbot">
+<ul>
+<li><a style="margin-left:30px;" href="http://so.gushiwen.org/type.aspx"><strong>诗文</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://so.gushiwen.org/mingju/"><strong>名句</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://so.gushiwen.org/guwen/"><strong>典籍</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://so.gushiwen.org/authors/"><strong>作者</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://shige.laiyo.com/yc/" target="_blank"><strong>原创</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://so.gushiwen.org/randShow.aspx?id=72b7b8a8cc" rel="nofollow"><strong>随便看看</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a href="http://so.gushiwen.org/user/collect.aspx"><strong>我的收藏</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+<li><a style="margin-right:0px;" href="http://so.gushiwen.org/app/" target="_blank"><strong>app下载</strong></a><img src="/Imgs/nva.jpg" width="30" height="36" alt=""/></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="main2">
+<ul>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e5%85%88%e7%a7%a6"><strong>先秦</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e4%b8%a4%e6%b1%89"><strong>两汉</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e9%ad%8f%e6%99%8b"><strong>魏晋</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e5%8d%97%e5%8c%97%e6%9c%9d"><strong>南北朝</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e9%9a%8b%e4%bb%a3"><strong>隋代</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e5%94%90%e4%bb%a3"><strong>唐代</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e4%ba%94%e4%bb%a3"><strong>五代</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e5%ae%8b%e4%bb%a3"><strong>宋代</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e9%87%91%e6%9c%9d"><strong>金朝</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e5%85%83%e4%bb%a3"><strong>元代</strong></a><span>|</span></li>
+<li><a href="http://so.gushiwen.org/type.aspx?p=1&c=%e6%98%8e%e4%bb%a3"><strong>明代</strong></a><span>|</span></li>
+<li><a style="margin-right:0px;" href="http://so.gushiwen.org/type.aspx?p=1&c=%e6%b8%85%e4%bb%a3"><strong>清代</strong></a></li>
+</ul>
+</div>
+<div class="main3">
+<div style="width:10px; float:left; height:1px;"></div>
+<div class="left">
+<img src="/Imgs/leftTop.jpg" width="260" height="37" alt="" />
+<div style="height:690px;" class="cont">
+<div class="title"><strong>古诗大全目录</strong></div>
+<div class="p2"><a href="/gushi/tangshi.aspx">唐诗三百首</a><a href="/gushi/sanbai.aspx">古诗三百首</a></div>
+<div class="p2"><a href="/gushi/songsan.aspx">宋词三百首</a><a href="/gushi/quansong.aspx">全宋词</a></div>
+<div class="p2"><a href="/gushi/songci.aspx">宋词精选</a><a href="/gushi/yuanqu.aspx">元曲精选</a></div>
+<div class="p2"><a href="/gushi/shijiu.aspx">古诗十九首</a><a href="/gushi/xiaoxue.aspx">小学古诗</a></div>
+<div class="p2"><a href="/gushi/xiaoba.aspx">小学古诗80首</a><a href="/gushi/xiaoqi.aspx">小学古诗70首</a></div>
+<div class="p2"><a href="/gushi/chuzhong.aspx">初中古诗</a><a href="/gushi/gaozhong.aspx">高中古诗</a></div>
+<div class="p2"><a href="/gushi/xiejing.aspx">写景的古诗</a><a href="/gushi/yongwu.aspx">咏物诗</a></div>
+<div class="p2"><a href="/gushi/chuntian.aspx">描写春天的古诗</a><a href="/gushi/xiatian.aspx">描写夏天的古诗</a></div>
+<div class="p2"><a href="/gushi/qiutian.aspx">描写秋天的古诗</a><a href="/gushi/dongtian.aspx">描写冬天的古诗</a></div>
+<div class="p2"><a href="/gushi/yu.aspx">描写雨的古诗</a><a href="/gushi/xue.aspx">描写雪的古诗</a></div>
+<div class="p2"><a href="/gushi/feng.aspx">描写风的古诗</a><a href="/gushi/hua.aspx">描写花的古诗</a></div>
+<div class="p2"><a href="/gushi/meihua.aspx">描写梅花的古诗</a><a href="/gushi/hehua.aspx">描写荷花的古诗</a></div>
+<div class="p2"><a href="/gushi/liushu.aspx">描写柳树的古诗</a><a href="/gushi/yueliang.aspx">描写月亮的古诗</a></div>
+<div class="p2"><a href="/gushi/shan.aspx">描写山的古诗</a><a href="/gushi/shui.aspx">描写水的古诗</a></div>
+<div class="p2"><a href="/gushi/changjiang.aspx">描写长江的古诗</a><a href="/gushi/huanghe.aspx">描写黄河的古诗</a></div>
+<div class="p2"><a href="/gushi/ertong.aspx">描写儿童的古诗</a><a href="/gushi/shanshui.aspx">山水诗</a></div>
+<div class="p2"><a href="/gushi/tianyuan.aspx">田园诗</a><a href="/gushi/biansai.aspx">边塞诗</a></div>
+<div class="p2"><a href="/gushi/diming.aspx">含有地名的古诗</a><a href="/gushi/jieri.aspx">节日古诗</a></div>
+<div class="p2"><a href="/gushi/chunjie.aspx">春节古诗</a><a href="/gushi/yuanxiao.aspx">元宵节古诗</a></div>
+<div class="p2"><a href="/gushi/qingming.aspx">清明节古诗</a><a href="/gushi/duanwu.aspx">端午节古诗</a></div>
+<div class="p2"><a href="/gushi/qixi.aspx">七夕古诗</a><a href="/gushi/zhongqiu.aspx">中秋节古诗</a></div>
+<div class="p2"><a href="/gushi/chongyang.aspx">重阳节古诗</a><a href="/gushi/shuqing.aspx">古代抒情诗</a></div>
+<div class="p2"><a href="/gushi/shanghuai.aspx">伤怀的古诗</a><a href="/gushi/huaigu.aspx">咏史怀古诗</a></div>
+<div class="p2"><a href="/gushi/aiguo.aspx">爱国古诗</a><a href="/gushi/songbie.aspx">送别诗</a></div>
+<div class="p2"><a href="/gushi/libie.aspx">离别诗</a><a href="/gushi/sixiang.aspx">思乡诗</a></div>
+<div class="p2"><a href="/gushi/sinian.aspx">思念的诗</a><a href="/gushi/aiqing.aspx">爱情古诗</a></div>
+<div class="p2"><a href="/gushi/lizhi.aspx">励志古诗</a><a href="/gushi/zheli.aspx">哲理诗</a></div>
+<div class="p2"><a href="/gushi/guiyuan.aspx">闺怨诗</a><a href="/gushi/laoshi.aspx">赞美老师的古诗</a></div>
+<div class="p2"><a href="/gushi/muqin.aspx">赞美母亲的古诗</a><a href="/gushi/youqing.aspx">关于友情的古诗</a></div>
+<div class="p2"><a href="/gushi/zhanzheng.aspx">关于战争的古诗</a><a href="/gushi/youguo.aspx">忧国忧民的古诗</a></div>
+<div class="p2"><a href="/gushi/wanyue.aspx">婉约诗词</a><a href="/gushi/haofang.aspx">豪放诗词</a></div>
+<div class="p2"><a href="/gushi/bibei.aspx">人生必背古诗</a><a href="/gushi/cifu.aspx">辞赋精选</a></div>
+<div class="p2"><a href="/gushi/quantang.aspx">全唐诗</a></div>
+</div>
+<img src="/Imgs/leftBottom.jpg" width="260" height="25" alt="" />
+<div id="adleft" style="width:250px; height:250px; margin-left:5px;float:left;">
+<script type="text/javascript" src="http://bai3.gushiwen.org/ye3a1ecf99fec2f73cdb1c7182f5b030fa46ead4133eec7fed0d36.js"></script>
+</div>
+</div>
+<div class="right">
+<div class="son1">
+<div class="sleft"></div>
+<div class="sleft2" style=" width:220px;"></div><div class="bossright">
+<div sytle="clear:both;">
+<form action="http://so.gushiwen.org/search.aspx" onsubmit="return selectSearch()" contentType="text/html; charset=utf-8" style=" float:right;">
+<input style="padding-left:3px; width:300px; height:22px; line-height:22px; border:1px solid #9C9D7B; background-color:#FBFAF6;float:left;" onkeydown="noajaxkeyUp()" onfocus="setInterval('showBos()',1000)" id="txtKey" name="value" type="text" value="" maxlength="40" autocomplete="off"/>
+<input style="float:left; height:24px; width:41px;border:0px; background-image:url(/Imgs/submitdocWww.png); cursor:pointer;" type="submit" value="搜索"/>
+<input id="b" style="display:none;" type="text" />
+</form>
+</div>
+<div id="box"></div>
+</div>
+</div>
+<div class="son2s">
+<div class="son2Title">
+<div class="titleft"><h1><span>《唐诗三百首》简介</span></h1></div>
+</div>
+<div class="guwencont1">
+<img src="/gushi/gsImg/tangshi.jpg" alt="唐诗三百首" height="200" width="131" />
+<p>　　《唐诗三百首》是一部流传很广的唐诗选集。唐朝（618年~907年）二百九十年间，是中国诗歌发展的黄金时代，云蒸霞蔚，名家辈出，唐诗数量多达五万首。孙琴安《唐诗选本六百种提要·自序》指出，“唐诗选本经大量散佚，至今尚存三百余种。当中最流行而家传户晓的，要算《唐诗三百首》。”《唐诗三百首》选诗范围相当广泛，收录了77家诗，共310首，在数量以杜甫诗数多，有38首、王维诗29首、李白诗27首、李商隐诗22首。它是中小学生接触中国古典诗歌最好的入门书籍。</p>
+</div>
+</div>
+<div class="son2s">
+<div class="son2Title2"><h2><span>《唐诗三百首》在线阅读</span></h2></div>
+<div><span style="margin-left:10px;">五言绝句</span></div>
+<div id="guwencont2" style="height:248px;" class="guwencont2">
+<a href="/GuShiWen_e57030b42c.aspx" target="_blank">行宫(元稹)</a>
+<a href="/GuShiWen_62214a2b00.aspx" target="_blank">登鹳雀楼(王之涣)</a>
+<a href="/GuShiWen_7fe57a613a.aspx" target="_blank">新嫁娘词(王建)</a>
+<a href="/GuShiWen_f4bcd5f606.aspx" target="_blank">相思(王维)</a>
+<a href="/GuShiWen_e731c3242e.aspx" target="_blank">杂诗(王维)</a>
+<a href="/GuShiWen_465b5b1b4a.aspx" target="_blank">鹿柴(王维)</a>
+<a href="/GuShiWen_2bb615bbd9.aspx" target="_blank">竹里馆(王维)</a>
+<a href="/GuShiWen_e788e9c73d.aspx" target="_blank">山中送别(王维)</a>
+<a href="/GuShiWen_8d927fac6d.aspx" target="_blank">问刘十九(白居易)</a>
+<a href="/GuShiWen_24e79da4f4.aspx" target="_blank">哥舒歌(西鄙人)</a>
+<a href="/GuShiWen_6fa12406af.aspx" target="_blank">夜思(李白)</a>
+<a href="/GuShiWen_1cd03cf3df.aspx" target="_blank">怨情(李白)</a>
+<a href="/GuShiWen_9dcf316328.aspx" target="_blank">登乐游原(李商隐)</a>
+<a href="/GuShiWen_bd602eaad0.aspx" target="_blank">听筝(李端)</a>
+<a href="/GuShiWen_bca3a963d7.aspx" target="_blank">渡汉江(李频)</a>
+<a href="/GuShiWen_3fafd55cca.aspx" target="_blank">八阵图(杜甫)</a>
+<a href="/GuShiWen_8d5a9ecdb7.aspx" target="_blank">宿建德江(孟浩然)</a>
+<a href="/GuShiWen_b3639b3722.aspx" target="_blank">春晓(孟浩然)</a>
+<a href="/GuShiWen_8aed48548f.aspx" target="_blank">春怨(金昌绪)</a>
+<a href="/GuShiWen_3ad899caed.aspx" target="_blank">江雪(柳宗元)</a>
+<a href="/GuShiWen_77049a01e9.aspx" target="_blank">秋夜寄邱员外(韦应物)</a>
+<a href="/GuShiWen_fe5950e8d7.aspx" target="_blank">终南望余雪(祖咏)</a>
+<a href="/GuShiWen_768631014b.aspx" target="_blank">宫词(张祜)</a>
+<a href="/GuShiWen_a2b94427a1.aspx" target="_blank">寻隐者不遇(贾岛)</a>
+<a href="/GuShiWen_5634353338.aspx" target="_blank">送崔九(裴迪)</a>
+<a href="/GuShiWen_6693ec4ec3.aspx" target="_blank">送灵澈(刘长卿)</a>
+<a href="/GuShiWen_6c39d14909.aspx" target="_blank">听弹琴(刘长卿)</a>
+<a href="/GuShiWen_536b8d6320.aspx" target="_blank">送上人(刘长卿)</a>
+<a href="/GuShiWen_3a544871c1.aspx" target="_blank">玉台体(权德舆)</a>
+</div>
+<div><span style="margin-left:10px;">七言绝句</span></div>
+<div id="guwencont21" style="height:416px;" class="guwencont2">
+<a href="/GuShiWen_d33906a28b.aspx" target="_blank">芙蓉楼送辛渐(王昌龄)</a>
+<a href="/GuShiWen_de37cfa2d9.aspx" target="_blank">闺怨(王昌龄)</a>
+<a href="/GuShiWen_3821dab0a8.aspx" target="_blank">春宫曲(王昌龄)</a>
+<a href="/GuShiWen_a126f2b41c.aspx" target="_blank">九月九日忆山东兄弟(王维)</a>
+<a href="/GuShiWen_2b7509cccf.aspx" target="_blank">凉州词(王翰)</a>
+<a href="/GuShiWen_8a3af9e21f.aspx" target="_blank">后宫词(白居易)</a>
+<a href="/GuShiWen_b95fff50f7.aspx" target="_blank">宫中词(朱庆馀)</a>
+<a href="/GuShiWen_03018a8b67.aspx" target="_blank">近试上张水部(朱庆馀)</a>
+<a href="/GuShiWen_45ceef45b3.aspx" target="_blank">逢入京使(岑参)</a>
+<a href="/GuShiWen_87496cbb12.aspx" target="_blank">黄鹤楼送孟浩然之广陵(李白)</a>
+<a href="/GuShiWen_63442b0e02.aspx" target="_blank">早发白帝城(李白)</a>
+<a href="/GuShiWen_77b77f9e10.aspx" target="_blank">夜上受降城闻笛(李益)</a>
+<a href="/GuShiWen_bd99f9aa90.aspx" target="_blank">贾生(李商隐)</a>
+<a href="/GuShiWen_0ad1338c3d.aspx" target="_blank">隋宫(李商隐)</a>
+<a href="/GuShiWen_f4c8708761.aspx" target="_blank">瑶池(李商隐)</a>
+<a href="/GuShiWen_2db7fef0c9.aspx" target="_blank">嫦娥(李商隐)</a>
+<a href="/GuShiWen_1f7dba56c7.aspx" target="_blank">夜雨寄北(李商隐)</a>
+<a href="/GuShiWen_e1fa438de5.aspx" target="_blank">寄令狐郎中(李商隐)</a>
+<a href="/GuShiWen_b753b2695a.aspx" target="_blank">为有(李商隐)</a>
+<a href="/GuShiWen_653b4f05e9.aspx" target="_blank">江南逢李龟年(杜甫)</a>
+<a href="/GuShiWen_213b11cd49.aspx" target="_blank">赠别二首·其一(杜牧)</a>
+<a href="/GuShiWen_3683a337f6.aspx" target="_blank">赠别二首·其二(杜牧)</a>
+<a href="/GuShiWen_2353adbe9b.aspx" target="_blank">金谷园(杜牧)</a>
+<a href="/GuShiWen_213a3efcbe.aspx" target="_blank">寄扬州韩绰判官(杜牧)</a>
+<a href="/GuShiWen_bce6750498.aspx" target="_blank">遣怀(杜牧)</a>
+<a href="/GuShiWen_2e97f295e7.aspx" target="_blank">秋夕(杜牧)</a>
+<a href="/GuShiWen_ffce62342e.aspx" target="_blank">将赴吴兴登乐游原一绝(杜牧)</a>
+<a href="/GuShiWen_587f7262b5.aspx" target="_blank">赤壁(杜牧)</a>
+<a href="/GuShiWen_a226f4bc9f.aspx" target="_blank">泊秦淮(杜牧)</a>
+<a href="/GuShiWen_52185e2331.aspx" target="_blank">征人怨(柳中庸)</a>
+<a href="/GuShiWen_18bbac0137.aspx" target="_blank">金陵图(韦庄)</a>
+<a href="/GuShiWen_31f936b194.aspx" target="_blank">滁州西涧(韦应物)</a>
+<a href="/GuShiWen_f45b7a3531.aspx" target="_blank">桃花溪(张旭)</a>
+<a href="/GuShiWen_9b9cf2cdf5.aspx" target="_blank">寄人(张泌)</a>
+<a href="/GuShiWen_493cb2044b.aspx" target="_blank">题金陵渡(张祜)</a>
+<a href="/GuShiWen_968fb05255.aspx" target="_blank">赠内人(张祜)</a>
+<a href="/GuShiWen_ea6bc197ae.aspx" target="_blank">集灵台二首·其一(张祜)</a>
+<a href="/GuShiWen_8d380bfb9c.aspx" target="_blank">集灵台二首·其二(张祜)</a>
+<a href="/GuShiWen_9066de1afb.aspx" target="_blank">枫桥夜泊(张继)</a>
+<a href="/GuShiWen_63cdef0328.aspx" target="_blank">陇西行(陈陶)</a>
+<a href="/GuShiWen_fec4e17e5b.aspx" target="_blank">杂诗(佚名)</a>
+<a href="/GuShiWen_01a2868c09.aspx" target="_blank">回乡偶书(贺知章)</a>
+<a href="/GuShiWen_3fcc3565c5.aspx" target="_blank">瑶瑟怨(温庭筠)</a>
+<a href="/GuShiWen_767323ba8c.aspx" target="_blank">月夜(刘方平)</a>
+<a href="/GuShiWen_eda2c9005d.aspx" target="_blank">春怨(刘方平)</a>
+<a href="/GuShiWen_dfa70459d3.aspx" target="_blank">乌衣巷(刘禹锡)</a>
+<a href="/GuShiWen_a4d34b6880.aspx" target="_blank">春词(刘禹锡)</a>
+<a href="/GuShiWen_a9136ad2b1.aspx" target="_blank">马嵬坡(郑畋)</a>
+<a href="/GuShiWen_b183d78847.aspx" target="_blank">寒食(韩翃)</a>
+<a href="/GuShiWen_2ca6cda725.aspx" target="_blank">已凉(韩偓)</a>
+<a href="/GuShiWen_3cae3e1f2a.aspx" target="_blank">宫词(顾况)</a>
+</div>
+<div><span style="margin-left:10px;">五言律诗</span></div>
+<div id="guwencont22" style="height:656px;" class="guwencont2">
+<a href="/GuShiWen_78e1b7efd6.aspx" target="_blank">送杜少府之任蜀州(王勃)</a>
+<a href="/GuShiWen_6299b969fb.aspx" target="_blank">送梓州李使君(王维)</a>
+<a href="/GuShiWen_addbd4ea9d.aspx" target="_blank">汉江临眺(王维)</a>
+<a href="/GuShiWen_8afe38cb7a.aspx" target="_blank">终南别业(王维)</a>
+<a href="/GuShiWen_026fb4bd7b.aspx" target="_blank">终南山(王维)</a>
+<a href="/GuShiWen_f125bd30d6.aspx" target="_blank">酬张少府(王维)</a>
+<a href="/GuShiWen_91b5c5b9c7.aspx" target="_blank">过香积寺(王维)</a>
+<a href="/GuShiWen_93151e5de8.aspx" target="_blank">辋川闲居赠裴秀才迪(王维)</a>
+<a href="/GuShiWen_47b428a239.aspx" target="_blank">山居秋暝(王维)</a>
+<a href="/GuShiWen_57f000700b.aspx" target="_blank">归嵩山作(王维)</a>
+<a href="/GuShiWen_1adb635b84.aspx" target="_blank">次北固山下(王湾)</a>
+<a href="/GuShiWen_67a2ccfc1d.aspx" target="_blank">云阳馆与韩绅宿别(司空曙)</a>
+<a href="/GuShiWen_5706f5cdf9.aspx" target="_blank">喜外弟卢纶见宿(司空曙)</a>
+<a href="/GuShiWen_cc8247276a.aspx" target="_blank">贼平后送人北归(司空曙)</a>
+<a href="/GuShiWen_44451a736f.aspx" target="_blank">赋得古原草送别(白居易)</a>
+<a href="/GuShiWen_12bb392b99.aspx" target="_blank">题大庾岭北驿(宋之问)</a>
+<a href="/GuShiWen_7c54b52bc1.aspx" target="_blank">寄左省杜拾遗(岑参)</a>
+<a href="/GuShiWen_6a8758848b.aspx" target="_blank">听蜀僧浚弹琴(李白)</a>
+<a href="/GuShiWen_5b088c683a.aspx" target="_blank">夜泊牛渚怀古(李白)</a>
+<a href="/GuShiWen_8e66e59d04.aspx" target="_blank">赠孟浩然(李白)</a>
+<a href="/GuShiWen_99471b4320.aspx" target="_blank">渡荆门送别(李白)</a>
+<a href="/GuShiWen_78b3d1f613.aspx" target="_blank">送友人(李白)</a>
+<a href="/GuShiWen_037cc29f25.aspx" target="_blank">喜见外弟又言别(李益)</a>
+<a href="/GuShiWen_99a772d311.aspx" target="_blank">凉思(李商隐)</a>
+<a href="/GuShiWen_175c7f17da.aspx" target="_blank">北青萝(李商隐)</a>
+<a href="/GuShiWen_773af2f2b4.aspx" target="_blank">蝉(李商隐)</a>
+<a href="/GuShiWen_6eca7960c1.aspx" target="_blank">风雨(李商隐)</a>
+<a href="/GuShiWen_7f5fd55764.aspx" target="_blank">落花(李商隐)</a>
+<a href="/GuShiWen_5cc0c00b50.aspx" target="_blank">登岳阳楼(杜甫)</a>
+<a href="/GuShiWen_5ccbeb3e2c.aspx" target="_blank">奉济驿重送严公四韵(杜甫)</a>
+<a href="/GuShiWen_77f1e1a4d6.aspx" target="_blank">别房太尉墓(杜甫)</a>
+<a href="/GuShiWen_4eadbc2eeb.aspx" target="_blank">旅夜书怀(杜甫)</a>
+<a href="/GuShiWen_640c7d54c6.aspx" target="_blank">至德二载甫自京金光门(杜甫)</a>
+<a href="/GuShiWen_199fa3970e.aspx" target="_blank">月夜忆舍弟(杜甫)</a>
+<a href="/GuShiWen_148389ab4e.aspx" target="_blank">天末怀李白(杜甫)</a>
+<a href="/GuShiWen_5a3b2dd404.aspx" target="_blank">月夜(杜甫)</a>
+<a href="/GuShiWen_ba954ca244.aspx" target="_blank">春望(杜甫)</a>
+<a href="/GuShiWen_1ab450836c.aspx" target="_blank">春宿左省(杜甫)</a>
+<a href="/GuShiWen_2f56ab3855.aspx" target="_blank">旅宿(杜牧)</a>
+<a href="/GuShiWen_01a8e2c961.aspx" target="_blank">春宫怨(杜荀鹤)</a>
+<a href="/GuShiWen_9489d99a75.aspx" target="_blank">和晋陵陆丞早春游望(杜审言)</a>
+<a href="/GuShiWen_cf0ad5cc13.aspx" target="_blank">杂诗(沈佺期)</a>
+<a href="/GuShiWen_23dd5c4213.aspx" target="_blank">宿桐庐江寄广陵旧游(孟浩然)</a>
+<a href="/GuShiWen_65b84c9e28.aspx" target="_blank">留别王维(孟浩然)</a>
+<a href="/GuShiWen_a9d9073df7.aspx" target="_blank">早寒有怀(孟浩然)</a>
+<a href="/GuShiWen_161f4a578c.aspx" target="_blank">岁暮归南山(孟浩然)</a>
+<a href="/GuShiWen_4462d63a21.aspx" target="_blank">过故人庄(孟浩然)</a>
+<a href="/GuShiWen_bfcdcddb03.aspx" target="_blank">秦中寄远上人(孟浩然)</a>
+<a href="/GuShiWen_f83c4eec3c.aspx" target="_blank">望洞庭湖赠张丞相(孟浩然)</a>
+<a href="/GuShiWen_1311a94f81.aspx" target="_blank">与诸子登岘山(孟浩然)</a>
+<a href="/GuShiWen_2c831e2982.aspx" target="_blank">宴梅道士山房(孟浩然)</a>
+<a href="/GuShiWen_2981d7d6b3.aspx" target="_blank">章台夜思(韦庄)</a>
+<a href="/GuShiWen_52319b0099.aspx" target="_blank">淮上喜会梁州故人(韦应物)</a>
+<a href="/GuShiWen_b570d18374.aspx" target="_blank">赋得暮雨送李曹(韦应物)</a>
+<a href="/GuShiWen_a830a586c4.aspx" target="_blank">经邹鲁祭孔子而叹之(唐玄宗)</a>
+<a href="/GuShiWen_d510e522a7.aspx" target="_blank">灞上秋居(马戴)</a>
+<a href="/GuShiWen_fccd6da0b2.aspx" target="_blank">楚江怀古(马戴)</a>
+<a href="/GuShiWen_23bd2ce0f2.aspx" target="_blank">除夜有怀(崔涂)</a>
+<a href="/GuShiWen_6176c32233.aspx" target="_blank">孤雁(崔涂)</a>
+<a href="/GuShiWen_5aa0a22532.aspx" target="_blank">题破山寺后禅院(常建)</a>
+<a href="/GuShiWen_67d390c336.aspx" target="_blank">望月怀远(张九龄)</a>
+<a href="/GuShiWen_18a37a79a0.aspx" target="_blank">书边事(张乔)</a>
+<a href="/GuShiWen_c7d13abcde.aspx" target="_blank">没蕃故人(张藉)</a>
+<a href="/GuShiWen_3e142e22ed.aspx" target="_blank">秋日赴阙题潼关驿楼(许浑)</a>
+<a href="/GuShiWen_b10e90d60e.aspx" target="_blank">早秋(许浑)</a>
+<a href="/GuShiWen_2091360d37.aspx" target="_blank">送人东游(温庭筠)</a>
+<a href="/GuShiWen_f27e8a32e3.aspx" target="_blank">寻陆鸿渐不遇(僧皎然)</a>
+<a href="/GuShiWen_ec3cafd86c.aspx" target="_blank">寻南溪常道士(刘长卿)</a>
+<a href="/GuShiWen_80a0f8c02b.aspx" target="_blank">新年作(刘长卿)</a>
+<a href="/GuShiWen_88e047394b.aspx" target="_blank">秋日登吴公台上寺远眺(刘长卿)</a>
+<a href="/GuShiWen_66aa216865.aspx" target="_blank">送李中丞归汉阳别业(刘长卿)</a>
+<a href="/GuShiWen_f06e79b2ed.aspx" target="_blank">饯别王十一南游(刘长卿)</a>
+<a href="/GuShiWen_d399a3bec7.aspx" target="_blank">蜀先主庙(刘禹锡)</a>
+<a href="/GuShiWen_6a38f11d73.aspx" target="_blank">阙题(刘昚虚)</a>
+<a href="/GuShiWen_d7bb3ec4a8.aspx" target="_blank">送李端(卢纶)</a>
+<a href="/GuShiWen_83f2f74187.aspx" target="_blank">送僧归日本(钱起)</a>
+<a href="/GuShiWen_8b49712e4a.aspx" target="_blank">谷口书斋寄杨补阙(钱起)</a>
+<a href="/GuShiWen_d548564946.aspx" target="_blank">在狱咏蝉(骆宾王)</a>
+<a href="/GuShiWen_1f78715ab7.aspx" target="_blank">江乡故人偶集客舍(戴叔伦)</a>
+<a href="/GuShiWen_927a722d2c.aspx" target="_blank">酬程延秋夜即事见赠(韩翃)</a>
+</div>
+<div><span style="margin-left:10px;">七言律诗</span></div>
+<div id="guwencont23" style="height:440px;" class="guwencont2">
+<a href="/GuShiWen_2a96551e65.aspx" target="_blank">遣悲怀三首·其一(元稹)</a>
+<a href="/GuShiWen_3e52720620.aspx" target="_blank">遣悲怀三首·其二(元稹)</a>
+<a href="/GuShiWen_437de1814b.aspx" target="_blank">遣悲怀三首·其三(元稹)</a>
+<a href="/GuShiWen_4fc839156a.aspx" target="_blank">赠郭给事(王维)</a>
+<a href="/GuShiWen_d6260f9745.aspx" target="_blank">和贾至舍人早朝大明宫之作(王维)</a>
+<a href="/GuShiWen_a3e41f2a49.aspx" target="_blank">奉和圣制从蓬莱向兴庆阁道(王维)</a>
+<a href="/GuShiWen_2f332055d3.aspx" target="_blank">积雨辋川庄作(王维)</a>
+<a href="/GuShiWen_9aec5dd371.aspx" target="_blank">自河南经乱,关内阻饥(白居易)</a>
+<a href="/GuShiWen_d6a82ac11b.aspx" target="_blank">奉和中书舍人贾至早朝大明(岑参)</a>
+<a href="/GuShiWen_f695b12cc3.aspx" target="_blank">登金陵凤凰台(李白)</a>
+<a href="/GuShiWen_9415eb19b9.aspx" target="_blank">无题·重帏深下莫愁堂(李商隐)</a>
+<a href="/GuShiWen_edc460d1d2.aspx" target="_blank">无题·相见时难别亦难(李商隐)</a>
+<a href="/GuShiWen_c99d0b9702.aspx" target="_blank">无题·凤尾香罗薄几重(李商隐)</a>
+<a href="/GuShiWen_27e673c563.aspx" target="_blank">无题·来是空言去绝踪(李商隐)</a>
+<a href="/GuShiWen_95d0b855d5.aspx" target="_blank">无题·飒飒东风细雨来(李商隐)</a>
+<a href="/GuShiWen_601958e58f.aspx" target="_blank">春雨(李商隐)</a>
+<a href="/GuShiWen_013214d99f.aspx" target="_blank">筹笔驿(李商隐)</a>
+<a href="/GuShiWen_4827a8699a.aspx" target="_blank">锦瑟(李商隐)</a>
+<a href="/GuShiWen_635c401cab.aspx" target="_blank">无题·昨夜星辰昨夜风(李商隐)</a>
+<a href="/GuShiWen_930e0e9ebd.aspx" target="_blank">隋宫(李商隐)</a>
+<a href="/GuShiWen_b7e915f829.aspx" target="_blank">送魏万之京(李颀)</a>
+<a href="/GuShiWen_739f23ea46.aspx" target="_blank">咏怀古迹·其一(杜甫)</a>
+<a href="/GuShiWen_c592ee2626.aspx" target="_blank">咏怀古迹·其二(杜甫)</a>
+<a href="/GuShiWen_a9717e818c.aspx" target="_blank">咏怀古迹·其三(杜甫)</a>
+<a href="/GuShiWen_f4c664ca88.aspx" target="_blank">咏怀古迹·其四(杜甫)</a>
+<a href="/GuShiWen_9987d03d18.aspx" target="_blank">咏怀古迹·其五(杜甫)</a>
+<a href="/GuShiWen_4fb74976c3.aspx" target="_blank">宿府(杜甫)</a>
+<a href="/GuShiWen_7cda89f300.aspx" target="_blank">阁夜(杜甫)</a>
+<a href="/GuShiWen_9eef7fdb12.aspx" target="_blank">闻官军收河南河北(杜甫)</a>
+<a href="/GuShiWen_772057d9e9.aspx" target="_blank">登高(杜甫)</a>
+<a href="/GuShiWen_85c5ceb2a7.aspx" target="_blank">登楼(杜甫)</a>
+<a href="/GuShiWen_f8d9f7821b.aspx" target="_blank">蜀相(杜甫)</a>
+<a href="/GuShiWen_0a51c1feee.aspx" target="_blank">客至(杜甫)</a>
+<a href="/GuShiWen_ad60fc5ac3.aspx" target="_blank">野望(杜甫)</a>
+<a href="/GuShiWen_94bdaf235e.aspx" target="_blank">登柳州城楼寄漳汀封连四(柳宗元)</a>
+<a href="/GuShiWen_60ed71b338.aspx" target="_blank">春思(皇甫冉)</a>
+<a href="/GuShiWen_ace1107b85.aspx" target="_blank">寄李儋元锡(韦应物)</a>
+<a href="/GuShiWen_fabaf00d2c.aspx" target="_blank">望蓟门(祖咏)</a>
+<a href="/GuShiWen_f60ac4aa95.aspx" target="_blank">贫女(秦韬玉)</a>
+<a href="/GuShiWen_65f446ed39.aspx" target="_blank">送李少府贬峡中王少府贬(高适)</a>
+<a href="/GuShiWen_f2f508c016.aspx" target="_blank">九日登望仙台呈刘明府(崔曙)</a>
+<a href="/GuShiWen_08af55f114.aspx" target="_blank">登黄鹤楼(崔颢)</a>
+<a href="/GuShiWen_e50a1ab98f.aspx" target="_blank">行经华阴(崔颢)</a>
+<a href="/GuShiWen_dce90cdf83.aspx" target="_blank">利州南渡(温庭筠)</a>
+<a href="/GuShiWen_5cf7dfb602.aspx" target="_blank">苏武庙(温庭筠)</a>
+<a href="/GuShiWen_5313c57535.aspx" target="_blank">江州重别薛六柳八二员外(刘长卿)</a>
+<a href="/GuShiWen_a5bc318e0c.aspx" target="_blank">长沙过贾谊宅(刘长卿)</a>
+<a href="/GuShiWen_6003ae9954.aspx" target="_blank">自夏口至鹦鹉洲夕望岳阳(刘长卿)</a>
+<a href="/GuShiWen_ab20021ee3.aspx" target="_blank">西塞山怀古(刘长卿)</a>
+<a href="/GuShiWen_cdf1ec3b12.aspx" target="_blank">晚次鄂州(卢纶)</a>
+<a href="/GuShiWen_315c48e4e7.aspx" target="_blank">赠阙下裴舍人(钱起)</a>
+<a href="/GuShiWen_afd787a8a7.aspx" target="_blank">宫词(薛逢)</a>
+<a href="/GuShiWen_ec4023f9ee.aspx" target="_blank">同题仙游观(韩翃)</a>
+</div>
+<div><span style="margin-left:10px;">五言古诗</span></div>
+<div id="guwencont24" style="height:296px;" class="guwencont2">
+<a href="/GuShiWen_41a8cf9116.aspx" target="_blank">贼退示官吏·并序(元结)</a>
+<a href="/GuShiWen_6c50eec340.aspx" target="_blank">同从弟南斋玩月忆山阴(王昌龄)</a>
+<a href="/GuShiWen_ed63daac90.aspx" target="_blank">渭川田家(王维)</a>
+<a href="/GuShiWen_c35d745784.aspx" target="_blank">西施咏(王维)</a>
+<a href="/GuShiWen_d465de87bc.aspx" target="_blank">送别(王维)</a>
+<a href="/GuShiWen_25f851cf9c.aspx" target="_blank">送綦毋潜落第还乡(王维)</a>
+<a href="/GuShiWen_f83e09babd.aspx" target="_blank">青溪(王维)</a>
+<a href="/GuShiWen_e4647a2d5e.aspx" target="_blank">与高适薛据登慈恩寺浮(岑参)</a>
+<a href="/GuShiWen_19e2afdb65.aspx" target="_blank">下终南山过斛斯山人宿(李白)</a>
+<a href="/GuShiWen_90f4f1dc9e.aspx" target="_blank">月下独酌(李白)</a>
+<a href="/GuShiWen_57fb9c4724.aspx" target="_blank">春思(李白)</a>
+<a href="/GuShiWen_5acd62cf5f.aspx" target="_blank">梦李白·其一(杜甫)</a>
+<a href="/GuShiWen_ecec2b46a7.aspx" target="_blank">梦李白·其二(杜甫)</a>
+<a href="/GuShiWen_0d0cb27e33.aspx" target="_blank">望岳(杜甫)</a>
+<a href="/GuShiWen_df73324531.aspx" target="_blank">赠卫八处士(杜甫)</a>
+<a href="/GuShiWen_ecef239a39.aspx" target="_blank">佳人(杜甫)</a>
+<a href="/GuShiWen_398ae706fe.aspx" target="_blank">秋登兰山寄张五(孟浩然)</a>
+<a href="/GuShiWen_87091773b3.aspx" target="_blank">夏日南亭怀辛大(孟浩然)</a>
+<a href="/GuShiWen_c9cfec38c4.aspx" target="_blank">宿业师山房待丁大不至(孟浩然)</a>
+<a href="/GuShiWen_9349ce036b.aspx" target="_blank">寻西山隐者不遇(邱为)</a>
+<a href="/GuShiWen_31d3f3e93e.aspx" target="_blank">晨诣超师院读禅经(柳宗元)</a>
+<a href="/GuShiWen_f1bb5e9034.aspx" target="_blank">溪居(柳宗元)</a>
+<a href="/GuShiWen_d3dd6f2443.aspx" target="_blank">送杨氏女(韦应物)</a>
+<a href="/GuShiWen_f13efc4925.aspx" target="_blank">长安遇冯著(韦应物)</a>
+<a href="/GuShiWen_fc2a031d36.aspx" target="_blank">夕次盱眙县(韦应物)</a>
+<a href="/GuShiWen_488b7d74b2.aspx" target="_blank">东郊(韦应物)</a>
+<a href="/GuShiWen_425d76049e.aspx" target="_blank">郡斋雨中与诸文士燕集(韦应物)</a>
+<a href="/GuShiWen_e5136e1001.aspx" target="_blank">初发扬子寄元大校书(韦应物)</a>
+<a href="/GuShiWen_75c9c160b7.aspx" target="_blank">寄全椒山中道士(韦应物)</a>
+<a href="/GuShiWen_8551b0574c.aspx" target="_blank">宿王昌龄隐居(常建)</a>
+<a href="/GuShiWen_45b7876fae.aspx" target="_blank">感遇·孤鸿海上来(张九龄)</a>
+<a href="/GuShiWen_914d727657.aspx" target="_blank">感遇·兰叶春葳蕤(张九龄)</a>
+<a href="/GuShiWen_aef6a8921c.aspx" target="_blank">感遇·幽人归独卧(张九龄)</a>
+<a href="/GuShiWen_a0be73a9ef.aspx" target="_blank">感遇·江南有丹桔(张九龄)</a>
+<a href="/GuShiWen_84d36d539e.aspx" target="_blank">春泛若耶溪(綦毋潜)</a>
+</div>
+<div><span style="margin-left:10px;">七言古诗</span></div>
+<div id="guwencont25" style="height:248px;" class="guwencont2">
+<a href="/GuShiWen_dba8b5c471.aspx" target="_blank">石鱼湖上醉歌·并序(元结)</a>
+<a href="/GuShiWen_c79924d76e.aspx" target="_blank">长恨歌(白居易)</a>
+<a href="/GuShiWen_5ee73a6bb1.aspx" target="_blank">琵琶行·并序(白居易)</a>
+<a href="/GuShiWen_25ebb1fa2a.aspx" target="_blank">走马川行奉送封大夫出师(岑参)</a>
+<a href="/GuShiWen_e7a1816945.aspx" target="_blank">轮台歌奉送封大夫出师(岑参)</a>
+<a href="/GuShiWen_8e91b4822c.aspx" target="_blank">白雪歌送武判官归京(岑参)</a>
+<a href="/GuShiWen_c95944c5cd.aspx" target="_blank">宣州谢朓楼饯别校书叔云(李白)</a>
+<a href="/GuShiWen_711181340f.aspx" target="_blank">庐山谣寄卢侍御虚舟(李白)</a>
+<a href="/GuShiWen_ab0f045bbf.aspx" target="_blank">梦游天姥吟留别(李白)</a>
+<a href="/GuShiWen_bbbad659aa.aspx" target="_blank">金陵酒肆留别(李白)</a>
+<a href="/GuShiWen_aea36158a9.aspx" target="_blank">韩碑(李商隐)</a>
+<a href="/GuShiWen_7f5a032cf3.aspx" target="_blank">听董大弹胡笳声兼寄语(李颀)</a>
+<a href="/GuShiWen_7c75fd76fb.aspx" target="_blank">听安万善吹筚篥歌(李颀)</a>
+<a href="/GuShiWen_3bf212011a.aspx" target="_blank">古意(李颀)</a>
+<a href="/GuShiWen_baf127637b.aspx" target="_blank">送陈章甫(李颀)</a>
+<a href="/GuShiWen_1ee542a52e.aspx" target="_blank">琴歌(李颀)</a>
+<a href="/GuShiWen_f0c9c2e265.aspx" target="_blank">古柏行(杜甫)</a>
+<a href="/GuShiWen_b195c69220.aspx" target="_blank">观公孙大娘弟子舞剑器(杜甫)</a>
+<a href="/GuShiWen_ddd7f7e63c.aspx" target="_blank">韦讽录事宅观曹将军画马图(杜甫)</a>
+<a href="/GuShiWen_87ef84cc70.aspx" target="_blank">丹青引赠曹霸将军(杜甫)</a>
+<a href="/GuShiWen_4e19f874a0.aspx" target="_blank">寄韩谏议(杜甫)</a>
+<a href="/GuShiWen_5fc2880a44.aspx" target="_blank">夜归鹿门山歌(孟浩然)</a>
+<a href="/GuShiWen_777b601316.aspx" target="_blank">渔翁(柳宗元)</a>
+<a href="/GuShiWen_ee82527f66.aspx" target="_blank">登幽州台歌(陈子昂)</a>
+<a href="/GuShiWen_3ff09482bd.aspx" target="_blank">石鼓歌(韩愈)</a>
+<a href="/GuShiWen_be7134cc6a.aspx" target="_blank">山石(韩愈)</a>
+<a href="/GuShiWen_2131987a7a.aspx" target="_blank">八月十五夜赠张功曹(韩愈)</a>
+<a href="/GuShiWen_ba420e0ce3.aspx" target="_blank">谒衡岳庙遂宿岳寺题门楼(韩愈)</a>
+</div>
+<div><span style="margin-left:10px;">乐府</span></div>
+<div id="guwencont26" style="height:392px;" class="guwencont2">
+<a href="/GuShiWen_5483ca3dc5.aspx" target="_blank">凉州词(王之涣)</a>
+<a href="/GuShiWen_c8067a38b9.aspx" target="_blank">出塞(王昌龄)</a>
+<a href="/GuShiWen_a724f90144.aspx" target="_blank">塞上曲·蝉鸣空桑林(王昌龄)</a>
+<a href="/GuShiWen_2ad1cef219.aspx" target="_blank">塞下曲·饮马渡秋水(王昌龄)</a>
+<a href="/GuShiWen_020b2a9f65.aspx" target="_blank">长信怨(王昌龄)</a>
+<a href="/GuShiWen_91d30a203b.aspx" target="_blank">渭城曲(王维)</a>
+<a href="/GuShiWen_6b9eb232b5.aspx" target="_blank">秋夜曲(王维)</a>
+<a href="/GuShiWen_258f0c86d8.aspx" target="_blank">洛阳女儿行(王维)</a>
+<a href="/GuShiWen_c1552d1114.aspx" target="_blank">老将行(王维)</a>
+<a href="/GuShiWen_baa8cbb3da.aspx" target="_blank">桃源行(王维)</a>
+<a href="/GuShiWen_e717ffded3.aspx" target="_blank">清平调·云想衣裳花想容(李白)</a>
+<a href="/GuShiWen_29c349f644.aspx" target="_blank">清平调·一枝红艳露凝香(李白)</a>
+<a href="/GuShiWen_3554bdfcdc.aspx" target="_blank">清平调·名花倾国两相欢(李白)</a>
+<a href="/GuShiWen_2cc21b2a7c.aspx" target="_blank">行路难(李白)</a>
+<a href="/GuShiWen_8e2b193947.aspx" target="_blank">行路难·大道如青天(李白)</a>
+<a href="/GuShiWen_82c80c9d6d.aspx" target="_blank">行路难·有耳莫洗颍川水(李白)</a>
+<a href="/GuShiWen_0fd00ff1aa.aspx" target="_blank">将进酒(李白)</a>
+<a href="/GuShiWen_5d8f100bef.aspx" target="_blank">玉阶怨(李白)</a>
+<a href="/GuShiWen_adda8d9ba2.aspx" target="_blank">长相思·在长安(李白)</a>
+<a href="/GuShiWen_c727bfcae0.aspx" target="_blank">长相思·摧心肝(李白)</a>
+<a href="/GuShiWen_9ba73ea1cf.aspx" target="_blank">长干行(李白)</a>
+<a href="/GuShiWen_37a4410939.aspx" target="_blank">蜀道难(李白)</a>
+<a href="/GuShiWen_46979244e7.aspx" target="_blank">子夜吴歌·春歌(李白)</a>
+<a href="/GuShiWen_a85beda468.aspx" target="_blank">子夜吴歌·夏歌(李白)</a>
+<a href="/GuShiWen_d0fa4d45e7.aspx" target="_blank">子夜吴歌·秋歌(李白)</a>
+<a href="/GuShiWen_9ec06b5633.aspx" target="_blank">子夜吴歌·冬歌(李白)</a>
+<a href="/GuShiWen_820d50f9e1.aspx" target="_blank">关山月(李白)</a>
+<a href="/GuShiWen_e3967f2499.aspx" target="_blank">江南曲(李益)</a>
+<a href="/GuShiWen_cd2be40bd4.aspx" target="_blank">古从军行(李颀)</a>
+<a href="/GuShiWen_614d8814e9.aspx" target="_blank">哀王孙(杜甫)</a>
+<a href="/GuShiWen_4ee9fa0b91.aspx" target="_blank">兵车行(杜甫)</a>
+<a href="/GuShiWen_5a51bd2c8c.aspx" target="_blank">丽人行(杜甫)</a>
+<a href="/GuShiWen_328692aa7a.aspx" target="_blank">哀江头(杜甫)</a>
+<a href="/GuShiWen_d767b002e1.aspx" target="_blank">金缕衣(佚名)</a>
+<a href="/GuShiWen_c15504799b.aspx" target="_blank">独不见(沈佺期)</a>
+<a href="/GuShiWen_51a85e6c68.aspx" target="_blank">烈女操(孟郊)</a>
+<a href="/GuShiWen_cab22c98c0.aspx" target="_blank">游子吟(孟郊)</a>
+<a href="/GuShiWen_3767e5b2d0.aspx" target="_blank">燕歌行·并序(高适)</a>
+<a href="/GuShiWen_2fa6406c28.aspx" target="_blank">长干行·君家何处住(崔颢)</a>
+<a href="/GuShiWen_35041365a2.aspx" target="_blank">长干行·家临九江水(崔颢)</a>
+<a href="/GuShiWen_39e57ab6f1.aspx" target="_blank">塞下曲·鹫翎金仆姑(卢纶)</a>
+<a href="/GuShiWen_f140866f46.aspx" target="_blank">塞下曲·林暗草惊风(卢纶)</a>
+<a href="/GuShiWen_074dd2b3e3.aspx" target="_blank">塞下曲·月黑雁飞高(卢纶)</a>
+<a href="/GuShiWen_9568c6c789.aspx" target="_blank">塞下曲·野幕蔽琼筵(卢纶)</a>
+<a href="http://so.gushiwen.org/gushi/tangshi.aspx" target="_blank">更多>></a>
+<a href="/gushi/quantang.aspx" target="_blank">《全唐诗》</a>
+</div>
+<div style="clear:both; width:660px; height:250px; background-color:#D1CFAA; border-top:1px dashed #89864C;margin-left:auto; margin-right:auto;">
+<script type="text/javascript" src="http://bai3.gushiwen.org/gp3a1ec196f7ccfe38db1c7182f5b030fa46ead4133eec7fed0d36.js"></script>
+</div>
+</div>
+<div style="height:10px;" class="son3"></div>
+<div class="son4">
+© 2017 <a href="http://www.gushiwen.org/"><strong>古诗文网</strong></a> | <a href="http://www.gushiwen.org/gushi/"><strong>古诗大全</strong></a> <a href="http://www.gushiwen.org/shiju/"><strong>诗句大全</strong></a> <a href="http://www.gushiwen.org/guwen/"><strong>古文翻译</strong></a> <a href="http://www.gushiwen.org/wenyan/"><strong>文言文翻译</strong></a> <a href="http://www.gushiwen.org/gushi/tangshi.aspx"><strong>唐诗三百首</strong></a> <a href="http://www.gushiwen.org/gushi/songci.aspx"><strong>宋词精选</strong></a> <a href="http://www.gushiwen.org/gushi/yuanqu.aspx"><strong>元曲精选</strong></a>
+</div>
+</div>
+</div>
+<script src="/js/skin.js" type="text/javascript"></script>
+</body>
+</html>

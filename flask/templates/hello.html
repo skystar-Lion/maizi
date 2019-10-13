@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ username }}!</h1>
+{% else %}
+    <h1>Hello World!</h1>
+    <h2>Hello {{ username }}</h2>        
+        <a href="{{ url_for('.services') }}">SERVICES</a>
+        <a href="{{ url_for('.abouts') }}">ABOUT</a>
+
+{% endif %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for art in pagelist %}
+    <div class="blog">
+        <div class="blog_title">
+            <h3>{{ art.title }}</h3>
+        </div>
+        <div class="blog_desc">
+            <span>{{ art.desc|safe }}</span>
+        </div>
+        <span id="blog_link"><a href="/blog/?title={{ art.title }}">阅读全文>></a></span>
+        <div class="blog_info">
+            <span>{{ art.date_published|date:'M-j / Y' }}  </span>
+            <span>分类：{{ art.category }}</span>
+            <span>评论数：()</span>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="con_list">
+        {% for list in list_range %}
+        {% ifequal list pagelist.number %}
+        <span id="curr_page"><a href="?page={{ list }}" title="第{{ list }}页">{{ list }}</a></span>
+        {% else %}
+        <span id="oth_page"><a href="?page={{ list }}" title="第{{ list }}页">{{ list }}</a></span>
+        {% endifequal %}
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block con_cateory %}
+    <div class="cateory">
+        <p>文章分类</p>
+        {% for ca in con_cateory %}
+        <div class="cateory_list">
+            <div class="cateory_list_left">{{ ca.category__name }}</div>
+            <div class="cateory_list_right">({{ ca.count }})</div>
+        </div>
+        {% endfor %}
+    </div>
+    
+{% endblock %}

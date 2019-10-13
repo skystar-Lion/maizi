@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../static/js/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <h3>功能</h3>
+    <input type="submit" value="jquery-ajax请求" onclick="SendRequest();">
+
+    <script type="text/javascript" charset="utf-8">
+        var xhr = null;
+
+        function SendRequest() {
+            $.post({
+                url: '/test/',
+                data: {'name':'66666', "password":"555555"},
+                dataType: 'text',
+                success: function(data, textstatus, xmlHttpRequest){
+                    console.log(data);
+                    console.log(textstatus);
+                    console.log(xmlHttpRequest);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

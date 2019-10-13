@@ -1,0 +1,34 @@
+1490583515922	geckodriver	INFO	Listening on 127.0.0.1:53280
+1490583517989	mozprofile::profile	INFO	Using profile path C:\Users\Lion\AppData\Local\Temp\rust_mozprofile.DA3rfYzY7cS3
+1490583518005	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1490583518036	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53286
+1490583519308	Marionette	INFO	Listening on port 53286
+1490583519748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1490583524131	geckodriver	INFO	Listening on 127.0.0.1:53361
+1490583526157	mozprofile::profile	INFO	Using profile path C:\Users\Lion\AppData\Local\Temp\rust_mozprofile.PceCOIngbkKf
+1490583526164	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1490583526172	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53370
+1490583526996	Marionette	INFO	Listening on port 53370
+1490583527429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1490587202620	geckodriver	INFO	Listening on 127.0.0.1:55060
+1490587204658	mozprofile::profile	INFO	Using profile path C:\Users\Lion\AppData\Local\Temp\rust_mozprofile.jMTQoMButbvs
+1490587204658	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1490587204674	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55066
+1490587205475	Marionette	INFO	Listening on port 55066
+1490587205958	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+driver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1490587212063	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55148
+1490587212860	Marionette	INFO	Listening on port 55148
+1490587213306	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

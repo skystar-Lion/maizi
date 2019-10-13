@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="con_text">
+        <p id="con_title">{{ contents.title }}</p>
+        <p id="con_info">发布时间：{{ contents.date_published|date:'Y-m-d' }}     文章分类：{{ contents.category }} </p>
+        <p id="con_con">{{ contents.content|safe }}</p>
+    </div>
+    <div class="com_reply">
+        {% for reply in com_replys %}
+            <div class="l1_reply">
+                <div class="reply_head">
+                    <span id="user">{{ reply.user }}</span>
+                    <span id="date">{{ reply.date_published|date:'Y-m-d H:i' }}</span>
+                </div>
+                <div class="reply_mid">
+                    <span>{{ reply.content }}</span>
+                </div>                
+                <div class="reply_foot">
+                    
+                    <span id="re_1"><a href="">回复</a></span>
+                    <span id="re_2"><a href="">反对()</a></span>
+                    <span id="re_3"><a href="">赞赏()</a></span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="comments">
+    <form method="POST" action="/addcomment/" name="form1">
+        {% csrf_token %}
+        <div class="box1">
+            <img src="../static/img/who.png" width="35px" height="35px">
+            <div class="box1_name">
+                <input type="text" name="username" placeholder="Name">
+            </div>            
+        </div>
+        <div class="box2">
+            <img src="../static/img/email.png" width="35px" height="35px">
+            <div class="box2_email">
+                <input type="text" name="email" placeholder="Email">
+            </div>            
+        </div>
+        <div class="box3">
+            <img src="../static/img/comment.png" width="35px" height="35px">
+            <div class="box3_com">
+                <input type="hidden" name="title" value="{{ contents.title }}">
+                <textarea name="comment" placeholder="留点建议吧" onkeyup="mytextarea()"></textarea> 
+            </div>           
+        </div>
+        <div class="box4">
+            <p><a href="javascript:document.form1.submit();">Submit</a></p>
+        </div>
+    </form> 
+    </div>
+{% endblock %}
+
+{% block con_cateory %}
+    <div class="cateory">
+        <p>文章分类</p>
+        {% for ca in con_cateory %}
+        <div class="cateory_list">
+            <div class="cateory_list_left">{{ ca.category__name }}</div>
+            <div class="cateory_list_right">({{ ca.count }})</div>
+        </div>
+        {% endfor %}
+    </div>
+    
+{% endblock %}
